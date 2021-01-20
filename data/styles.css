@@ -1,4 +1,4 @@
-.body{
+body{
     letter-spacing: 0.1px;
     font-family: 'Share Tech Mono', 'Monospace', 'Courier';
     font-weight: 400;
@@ -23,7 +23,7 @@
     border: 1px;
     padding: 0px;
     box-sizing: border-box;
-    border-bottom: dotted 1px #444;
+    border-bottom: dotted 1px #fff;
   }
 
 .container{
