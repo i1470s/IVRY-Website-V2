@@ -1,5 +1,3 @@
-STYLES
-
 body{
     letter-spacing: 0.1px;
     font-family: 'Share Tech Mono', 'Monospace', 'Courier';
@@ -10,7 +8,7 @@ body{
 
   }
 
-  .logo{
+.logo{
   width: 41px;
   margin: auto;
   margin-top: 20px;
