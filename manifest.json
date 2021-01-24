@@ -12,7 +12,7 @@
         "type": "image/png", "sizes": "256x41"
       },
       {
-        "src": "/data/icon.png",
+        "src": "/data/icon-512.png",
         "type": "image/png", "sizes": "512x512"
       }
     ]
