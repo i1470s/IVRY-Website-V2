@@ -9,11 +9,11 @@
     "icons": [
       {
         "src": "/data/icon.png",
-        "type": "image/png", "sizes": "256x41"
+        "type": "image/png", "sizes": "256x41", "purpose": "any maskable"
       },
       {
         "src": "/data/icon-512.png",
-        "type": "image/png", "sizes": "512x512"
+        "type": "image/png", "sizes": "512x512", "purpose": "any maskable"
       }
     ]
   }
