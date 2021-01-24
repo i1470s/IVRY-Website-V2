@@ -1,4 +1,3 @@
-const IVRY = "IVRY"
 const assets = [
   "/",
   "/index.html",
