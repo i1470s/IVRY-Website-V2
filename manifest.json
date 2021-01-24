@@ -1,11 +1,13 @@
 {
-    "name": "IVRY",
-    "short_name": "IVRY",
-    "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#222",
-    "theme_color": "#2E2E2E",
-    "orientation": "portrait-primary",
+  "name": "I V R Y",
+  "short_name": "IVRY",
+  "description": "IVRY Website",
+  "scope": ".",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2E2E2E",
+  "background_color": "#222",
     "icons": [
       {
         "src": "/data/icon.png",
