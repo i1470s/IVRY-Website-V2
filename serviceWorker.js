@@ -10,19 +10,14 @@ const assets = [
   "/data/icon-512.png"
 ];
 
-self.addEventListener("install", installEvent => {
-  installEvent.waitUntil(
-    caches.open('static')
-    .then(function(cache) {
-        return cache.addAll(assets);
-    })
-  );
-});
+const staticCacheName = 'IVRY';
 
-self.addEventListener("fetch", fetchEvent => {
-  fetchEvent.respondWith(
-    caches.match(fetchEvent.request).then(res => {
-      return res || fetch(fetchEvent.request)
+self.addEventListener('install', event => {
+  console.log('Attempting to install service worker and cache static assets');
+  event.waitUntil(
+    caches.open(staticCacheName)
+    .then(cache => {
+      return cache.addAll(assets);
     })
   );
 });
