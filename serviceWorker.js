@@ -7,12 +7,13 @@ const assets = [
   "/tutorials.html",
   "/data/css/style.css",
   "/data/js/app.js",
-  "/data/icon.png"
+  "/data/icon.png",
+  "/data/icon-512.png"
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(IVRY).then(cache => {
+    caches.open('static').then(function(cache) {
       cache.addAll(assets)
     })
   )
