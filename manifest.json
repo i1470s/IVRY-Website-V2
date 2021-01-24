@@ -3,8 +3,8 @@
     "short_name": "IVRY",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#db4938",
+    "background_color": "#222",
+    "theme_color": "##2E2E2E",
     "orientation": "portrait-primary",
     "icons": [
       {
