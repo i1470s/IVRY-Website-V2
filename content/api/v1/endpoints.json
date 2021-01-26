@@ -1,6 +1,24 @@
 [
-   1
     {
-    "stats"
+    "API": "V1"    
+    },
+
+    //ENDPOINTS V-1
+
+    {
+    "1": "stats"
+    },
+    {
+    "2": "rss"
+    },
+    {
+    "3": "COMING SOON"
+    },
+    {
+    "4": "COMING SOON"
+    },
+    {
+    "5": "COMING SOON"
     }
+
 ]
