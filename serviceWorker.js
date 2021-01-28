@@ -1,23 +1,3 @@
-const assets = [
-  "/",
-  "/index.html",
-  "/shop.html",
-  "/services.html",
-  "/tutorials.html",
-  "/data/css/styles.css",
-  "/js/app.js",
-  "/data/images/icon.png",
-  "/data/images/icon-192.png",
-  "/data/images/icon-512.png",
-  "/data/images/icon-640.png",
-  "/data/images/icon-750.png",
-  "/data/images/icon-1125.png",
-  "/data/images/icon-1242.png",
-  "/data/images/icon-1536.png",
-  "/data/images/icon-1668.png",
-  "/data/images/icon-2048.png"
-];
-
 /*
 Copyright 2015, 2019 Google Inc. All Rights Reserved.
  Licensed under the Apache License, Version 2.0 (the "License");
