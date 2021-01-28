@@ -5,7 +5,8 @@ body{
     font-size: 17px;
     color: #fff;
     background: #222;
-
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
 .logo{
