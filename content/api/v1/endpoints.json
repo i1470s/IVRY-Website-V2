@@ -6,16 +6,16 @@
     //ENDPOINTS V-1
 
     {
-    "1": "stats"
+    "1": "endpoints.json"
     },
     {
-    "2": "rss.xml"
+    "2": "stats.html"
     },
     {
-    "3": "COMING SOON"
+    "3": "rss.xml"
     },
     {
-    "4": "COMING SOON"
+    "4": "404.html"
     },
     {
     "5": "COMING SOON"
