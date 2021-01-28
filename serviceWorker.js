@@ -6,9 +6,16 @@ const assets = [
   "/tutorials.html",
   "/data/css/styles.css",
   "/js/app.js",
-  "/data/icon.png",
-  "/data/icon-192.png",
-  "/data/icon-512.png"
+  "/data/images/icon.png",
+  "/data/images/icon-192.png",
+  "/data/images/icon-512.png",
+  "/data/images/icon-640.png",
+  "/data/images/icon-750.png",
+  "/data/images/icon-1125.png",
+  "/data/images/icon-1242.png",
+  "/data/images/icon-1536.png",
+  "/data/images/icon-1668.png",
+  "/data/images/icon-2048.png"
 ];
 
 const staticCacheName = 'IVRY';
