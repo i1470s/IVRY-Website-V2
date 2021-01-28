@@ -10,7 +10,7 @@
   "background_color": "#222",
   "icons": [
       {
-        "src": "/data/iamges/icon.png",
+        "src": "/data/images/icon.png",
         "type": "image/png", "sizes": "256x41", "purpose": "any maskable"
       },
       {
