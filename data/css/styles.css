@@ -133,6 +133,17 @@ a:active {
     text-align: center;
     margin: 1%
 }
+
+.list-empty{
+    float: left;
+    border-radius: 0px;
+    background: #222;
+    padding: 1%;
+    width: 560px;
+    height: 180px;
+    text-align: center;
+    margin: 1%
+}
   
 .button {
     color: #C0C0C0;
