@@ -135,12 +135,12 @@ a:active {
 }
 
 .list-empty{
-    float: left;
+    float: right;
     border-radius: 0px;
-    background: #222;
+    background: #2E2E2E;
     padding: 1%;
-    width: 560px;
-    height: 180px;
+    width: 29.33%;
+    height: 190px;
     text-align: center;
     margin: 1%
 }
