@@ -25,6 +25,15 @@ body{
     -webkit-touch-callout: none;
 }
 
+footer{
+    position: relative;
+    height: 120px;
+    background-color: #222;
+    color: #c8c8c8c8;
+    text-align: center;
+    bottom: 0;
+}
+
 .logo{
     width: 41px;
     margin: auto;
@@ -69,15 +78,6 @@ a:hover {
 a:active {
     color: #C0C0C0;
   
-}
-
-.footer{
-    position: relative;
-    height: 120px;
-    background-color: #222;
-    color: #c8c8c8c8;
-    text-align: center;
-    bottom: 0;
 }
 
 /****** SCROLL BAR *********/
