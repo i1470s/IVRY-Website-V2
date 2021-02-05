@@ -10,9 +10,11 @@ body{
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-    scrollbar-width: thin;
-    scrollbar-color: dark;
 }
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px; }
 
 .logo{
     width: 41px;
