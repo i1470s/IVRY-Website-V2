@@ -71,10 +71,12 @@ a:active {
 
 ::-webkit-scrollbar {
     width: 13px;
-    height: 13px; }
+    height: 13px; 
+}
 
 ::-webkit-scrollbar:hover {
-    height: 18px; }
+    height: 18px; 
+}
 
 /****** LISTS, BUTTONS ETC *********/
 
