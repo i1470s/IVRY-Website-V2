@@ -12,6 +12,10 @@ body{
     -webkit-touch-callout: none;
 }
 
+.scrollable-element {
+  scrollbar-color: blue;
+}
+
 .logo{
     width: 41px;
     margin: auto;
