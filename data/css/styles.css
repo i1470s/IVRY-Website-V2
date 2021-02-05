@@ -10,10 +10,8 @@ body{
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-}
-
-.scrollable-element {
-  scrollbar-color: blue;
+    scrollbar-width: thin;
+    scrollbar-color: dark;
 }
 
 .logo{
