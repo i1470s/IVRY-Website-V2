@@ -12,13 +12,6 @@ body{
     -webkit-touch-callout: none;
 }
 
-::-webkit-scrollbar {
-    width: 13px;
-    height: 13px; }
-
-::-webkit-scrollbar:hover {
-    height: 18px; }
-
 .logo{
     width: 41px;
     margin: auto;
@@ -73,6 +66,15 @@ a:active {
     text-align: center;
     bottom: 0;
 }
+
+/****** SCROLL BAR *********/
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px; }
+
+::-webkit-scrollbar:hover {
+    height: 18px; }
 
 /****** LISTS, BUTTONS ETC *********/
 
