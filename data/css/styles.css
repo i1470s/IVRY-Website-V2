@@ -52,7 +52,7 @@ footer{
     border: 1px;
     padding: 0px;
     box-sizing: border-box;
-    border-bottom: dotted 1px #fff;
+    border-bottom: solid 1px #fff;
 }
 
 .container{
