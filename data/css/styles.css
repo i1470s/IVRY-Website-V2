@@ -168,17 +168,6 @@ a:active {
     text-align: center;
     margin: 1%;
 }
-
-.clear{
-    float: right;
-    border-radius: 0px;
-    background: #222;
-    padding: 1%;
-    width: 900px;
-    height: 2.5px;
-    text-align: center;
-    margin: 0%;
-}
   
 .button {
     color: #C0C0C0;
@@ -192,4 +181,15 @@ a:active {
     border-radius: 40px;
     border: none;
     outline: 0;
+}
+
+.clear{
+    float: right;
+    border-radius: 0px;
+    background: #222;
+    padding: 1%;
+    width: 900px;
+    height: 2.5px;
+    text-align: center;
+    margin: 0%;
 }
