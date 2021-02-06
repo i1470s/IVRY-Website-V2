@@ -35,6 +35,10 @@ footer{
     color: #c8c8c8c8;
     text-align: center;
     bottom: 0;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-top: solid 1px #fff;
 }
 
 .logo{
