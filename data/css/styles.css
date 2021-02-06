@@ -21,7 +21,7 @@ html{
 
 body{
     letter-spacing: 0.1px;
-    font-family: 'Share Tech Mono', Monospace, Courier;
+    font-family: 'Share Tech Mono', 'Monospace', 'Courier';
     font-weight: 400;
     font-size: 17px;
     color: #fff;
