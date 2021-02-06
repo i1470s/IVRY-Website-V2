@@ -49,7 +49,7 @@ footer{
     margin-bottom: 50px;
     height: 80px;
     border: 1px;
-    padding: 0px;
+    padding: 1px;
     box-sizing: border-box;
     border-bottom: dotted 1px #fff;
 }
@@ -57,7 +57,7 @@ footer{
 .container{
     position: relative;
     max-width: 900px;
-    height: 1650px;
+    height: 1750px;
     border: 1px;
     margin: -20px auto;
     padding: 0px;
