@@ -26,7 +26,7 @@ body{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     height: 120px;
     background-color: #222;
     color: #c8c8c8c8;
@@ -173,11 +173,11 @@ a:active {
     float: right;
     border-radius: 0px;
     background: #222;
-    padding: 1%;
+    padding: 0%;
     width: 900px;
     height: 2.5px;
     text-align: center;
-    margin: 1%;
+    margin: 0%;
 }
   
 .button {
