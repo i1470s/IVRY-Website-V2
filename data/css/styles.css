@@ -8,6 +8,12 @@
 
 /****** MAIN CONTENT *********/
 
+@font-face{
+    font-family: 'Share Tech Mono';
+    src: url('ttps://ivry.tk/data/fonts/font.eot');
+    src: local('â˜º'), url('https://ivry.tk/data/fonts/font.woff') format('woff'), url('https://ivry.tk/data/fonts/font.ttf') format('truetype'), url('https://n-o-d-e.live/fonts/font.svg') format('svg');
+}
+
 html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,7 +21,7 @@ html{
 
 body{
     letter-spacing: 0.1px;
-    font-family: 'Share Tech Mono', 'Monospace', 'Courier';
+    font-family: 'Share Tech Mono', Monospace, Courier;
     font-weight: 400;
     font-size: 17px;
     color: #fff;
