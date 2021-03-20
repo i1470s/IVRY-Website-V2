@@ -1,0 +1,203 @@
+/*_____  ____   ____  _______   ____  ____   
+ |_   _||_  _| |_  _||_   __ \ |_  _||_  _|  
+   | |    \ \   / /    | |__) |  \ \  / /    
+   | |     \ \ / /     |  __ /    \ \/ /     
+  _| |_     \ ' /     _| |  \ \_  _|  |_     
+ |_____|     \_/     |____| |___||______|
+  Created by i1470s#0396 Welcome :)*/
+
+/****** MAIN CONTENT *********/
+
+html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    letter-spacing: 0.1px;
+    font-family: 'Share Tech Mono', 'Monospace', 'Courier';
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    padding: 0; 
+    margin: 0;
+    background: #222;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+footer{
+    position: relative;
+    height: 120px;
+    width: 900px;
+    background-color: #222;
+    color: #c8c8c8c8;
+    text-align: center;
+    bottom: 0;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-top: solid 1px #2E2E2E;
+}
+
+.logo{
+    width: 41px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.head{
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 80px;
+    border: 1px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #2E2E2E;
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    height: 1750px;
+    border: 1px;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+  
+.header {
+    color: #C0C0C0;
+    text-decoration:none
+  
+}
+  
+a:hover {
+    color: #fff;
+    text-decoration:none
+  
+}
+
+a:active {
+    color: #C0C0C0;
+  
+}
+
+/****** SCROLL BAR *********/
+
+::-webkit-scrollbar {
+    width: 13px;
+    height: 13px; 
+}
+
+::-webkit-scrollbar:hover {
+    height: 18px; 
+}
+
+/****** LISTS, BUTTONS ETC *********/
+
+.list{
+    float: right;
+    border-radius: 25px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 240px;
+    height: 368px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-h{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 560px;
+    height: 150px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-s{
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 560px;
+    height: 180px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-ss{
+    float: right;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 29.33%;
+    height: 190px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-shop{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 29.33%;
+    height: 275px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-shop2{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 560px;
+    height: 180px;
+    text-align: center;
+    margin: 1%;
+}
+
+.list-empty{
+    float: right;
+    border-radius: 0px;
+    background: #222;
+    padding: 1%;
+    width: 29.33%;
+    height: 190px;
+    text-align: center;
+    margin: 1%;
+}
+  
+.button {
+    color: #C0C0C0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;  
+    width: 160px;
+    height: 55px;
+    background: #222;
+    border-radius: 40px;
+    border: none;
+    outline: 0;
+}
+
+.clear{
+    float: right;
+    border-radius: 0px;
+    background: #222;
+    padding: 1%;
+    width: 900px;
+    height: 2.5px;
+    text-align: center;
+    margin: 0%;
+}

@@ -1,0 +1,60 @@
+/*_____  ____   ____  _______   ____  ____   
+ |_   _||_  _| |_  _||_   __ \ |_  _||_  _|  
+   | |    \ \   / /    | |__) |  \ \  / /    
+   | |     \ \ / /     |  __ /    \ \/ /     
+  _| |_     \ ' /     _| |  \ \_  _|  |_     
+ |_____|     \_/     |____| |___||______|
+  Created by i1470s#0396 Welcome :)*/
+  
+{
+  "name": "IVRY",
+  "short_name": "IVRY",
+  "description": "IVRY Website",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2E2E2E",
+  "background_color": "#222",
+  "icons": [
+      {
+        "src": "/data/images/icon.png",
+        "type": "image/png", "sizes": "256x41", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-192.png",
+        "type": "image/png", "sizes": "192x192", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-512.png",
+        "type": "image/png", "sizes": "512x512", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-640.png",
+        "type": "image/png", "sizes": "640x1136", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-750.png",
+        "type": "image/png", "sizes": "750x1334", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-1125.png",
+        "type": "image/png", "sizes": "1242x2208", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-1242.png",
+        "type": "image/png", "sizes": "1125x2436", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-1536.png",
+        "type": "image/png", "sizes": "1536x2048", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-1668.png",
+        "type": "image/png", "sizes": "1668x2224", "purpose": "any maskable"
+      },
+      {
+        "src": "/data/images/icon-2048.png",
+        "type": "image/png", "sizes": "2048x2732", "purpose": "any maskable"
+      }
+    ]
+  }
