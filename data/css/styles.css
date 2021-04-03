@@ -30,16 +30,16 @@ body{
 
 footer{
     position: relative;
-    height: 120px;
-    width: 900px;
-    background-color: #222;
+    height: -150px;
+    width: 100%;
+    background-color: #222326;
     color: #c8c8c8c8;
-    text-align: center;
     bottom: 0;
     margin: auto;
+    padding: 0px;
     margin-top: 50px;
     box-sizing: border-box;
-    border-top: solid 1px #2E2E2E;
+    border-top: solid 4px #2E2E2E;
 }
 
 .logo{
