@@ -154,17 +154,6 @@ a:active {
     margin: 1%;
 }
 
-.list-shop2{
-    float: left;
-    border-radius: 0px;
-    background: #2E2E2E;
-    padding: 1%;
-    width: 560px;
-    height: 180px;
-    text-align: center;
-    margin: 1%;
-}
-
 .list-empty{
     float: right;
     border-radius: 0px;
