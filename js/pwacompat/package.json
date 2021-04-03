@@ -1,0 +1,64 @@
+{
+  "_from": "pwacompat",
+  "_id": "pwacompat@2.0.17",
+  "_inBundle": false,
+  "_integrity": "sha512-6Du7IZdIy7cHiv7AhtDy4X2QRM8IAD5DII69mt5qWibC2d15ZU8DmBG1WdZKekG11cChSu4zkSUGPF9sweOl6w==",
+  "_location": "/pwacompat",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "pwacompat",
+    "name": "pwacompat",
+    "escapedName": "pwacompat",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pwacompat/-/pwacompat-2.0.17.tgz",
+  "_shasum": "707959ff97f239bf1fe7b260b63aeea416a15eab",
+  "_spec": "pwacompat",
+  "_where": "C:\\Users\\achin\\Desktop\\Website V2",
+  "author": {
+    "name": "The Chromium Authors"
+  },
+  "bugs": {
+    "url": "https://github.com/GoogleChrome/pwacompat/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "library to bring Web App Manifest contents to non-compliant browsers",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "headless-test": "^1.0.2",
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/GoogleChrome/pwacompat",
+  "jsnext:main": "src/pwacompat.js",
+  "keywords": [
+    "pwa",
+    "compatibility",
+    "ios",
+    "homescreen",
+    "manifest"
+  ],
+  "license": "Apache-2.0",
+  "main": "pwacompat.min.js",
+  "module": "src/pwacompat.js",
+  "name": "pwacompat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleChrome/pwacompat.git"
+  },
+  "resolutions": {
+    "**/minimist": "^1.2.5"
+  },
+  "scripts": {
+    "test": "headless-test src/test.js"
+  },
+  "version": "2.0.17"
+}
