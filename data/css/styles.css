@@ -30,7 +30,7 @@ body{
 
 footer{
     position: relative;
-    height: 150px;
+    height: -150px;
     width: 100%;
     background-color: #222;
     color: #c8c8c8c8;
@@ -62,7 +62,7 @@ footer{
 .container{
     position: relative;
     max-width: 900px;
-    height: auto;
+    height: 1750px;
     border: 1px;
     margin: auto;
     padding: 0px;
