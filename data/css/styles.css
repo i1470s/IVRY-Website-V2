@@ -33,6 +33,7 @@ footer{
     justify-content: space-between;
     display: flex;
     max-width: 880px;
+    min-width: 880px;
     height: -150px;
     background-color: #222;
     color: #c8c8c8c8;
@@ -54,6 +55,7 @@ footer{
     justify-content: space-between;
     display: flex;
     max-width: 880px;
+    min-width: 880px;
     background-color: #222;
     height: 80px;
     border: 1px;
