@@ -30,13 +30,14 @@ body{
 }
 
 footer{
-    position: relative;
+    justify-content: space-between;
+    display: flex;
+    max-width: 880px;
     height: -150px;
-    width: 100%;
     background-color: #222;
     color: #c8c8c8c8;
     bottom: 0;
-    margin: auto;
+    margin: 0 auto;
     padding: 0px;
     margin-top: 50px;
     box-sizing: border-box;
