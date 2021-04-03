@@ -50,7 +50,7 @@ footer{
 
 .head{
     position: relative;
-    width: 100%;
+    max-width: 80%;
     background-color: #222;
     height: 80px;
     border: 1px;
