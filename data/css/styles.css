@@ -53,14 +53,14 @@ footer{
 .head{
     justify-content: space-between;
     display: flex;
-    max-width: 100%;
-    min-width: 880px;
+    max-width: 880px;
     background-color: #222;
     height: 80px;
     border: 1px;
     padding: 0px;
     margin: 0 auto;
     box-sizing: border-box;
+    border-bottom: solid 4px #fb5804;
 }
 
 .container{
@@ -71,7 +71,6 @@ footer{
     margin: auto;
     padding: 0px;
     box-sizing: border-box;
-    border-top: solid 4px #fb5804; 
 }
   
 .header {
