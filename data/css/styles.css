@@ -90,7 +90,7 @@ a:active {
 /****** SCROLL BAR *********/
 
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 0px;
     height: 13px; 
 }
 
