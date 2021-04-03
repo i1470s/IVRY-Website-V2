@@ -50,12 +50,14 @@ footer{
 }
 
 .head{
+    justify-content: space-between;
     display: flex;
     max-width: 750px;
     background-color: #222;
     height: 80px;
     border: 1px;
     padding: 0px;
+    margin: 0 auto;
     box-sizing: border-box;
     border-bottom: solid 4px #fb5804;
 }
