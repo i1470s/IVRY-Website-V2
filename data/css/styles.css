@@ -61,7 +61,6 @@ footer{
     padding: 0px;
     margin: 0 auto;
     box-sizing: border-box;
-    border-bottom: solid 4px #fb5804;
 }
 
 .container{
@@ -72,7 +71,7 @@ footer{
     margin: auto;
     padding: 0px;
     box-sizing: border-box;
- 
+    border-top: solid 4px #fb5804; 
 }
   
 .header {
