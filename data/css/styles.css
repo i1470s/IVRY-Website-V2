@@ -50,7 +50,6 @@ footer{
 }
 
 .head{
-    position: relative;
     display: flex;
     max-width: 750px;
     background-color: #222;
