@@ -50,9 +50,9 @@ footer{
 }
 
 .head{
-    justify-content: space-between;
+    position: relative;
     display: flex;
-    max-width: 750px;
+    max-width: 880px;
     background-color: #222;
     height: 80px;
     border: 1px;
