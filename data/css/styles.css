@@ -39,7 +39,7 @@ footer{
     padding: 0px;
     margin-top: 50px;
     box-sizing: border-box;
-    border-top: solid 1px #fb5804;
+    border-top: solid 4px #fb5804;
 }
 
 .logo{
@@ -56,7 +56,7 @@ footer{
     border: 1px;
     padding: 0px;
     box-sizing: border-box;
-    border-bottom: solid 1px #fb5804;
+    border-bottom: solid 4px #fb5804;
 }
 
 .container{
