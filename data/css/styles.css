@@ -77,6 +77,19 @@ footer{
     box-sizing: border-box;
 }
   
+.container-o{
+    position: relative;
+    max-width: 80px;
+    min-width: 80px;
+    height: 1750px;
+    left: 100px;
+    border: 1px;
+    margin: auto;
+    padding: 0px;
+    background-color: #fb5804;
+    box-sizing: border-box;
+}
+
 .header {
     color: #C0C0C0;
     text-decoration:none
