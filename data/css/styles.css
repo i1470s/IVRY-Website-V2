@@ -141,7 +141,7 @@ a:active {
 }
 
 .feed{
-    float: right;
+    float: left;
     border-radius: 0px;
     background: #2E2E2E;
     padding: 1%;
