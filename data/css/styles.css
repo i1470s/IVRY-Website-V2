@@ -77,8 +77,8 @@ footer{
     box-sizing: border-box;
 }
 
-.container{
-    position: relative;
+.container-orange{
+    top: 250px;
     max-width: 900px;
     min-width: 900px;
     height: 500px;
