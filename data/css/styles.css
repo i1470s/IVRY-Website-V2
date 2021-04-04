@@ -129,6 +129,17 @@ a:active {
     margin: 1%;
 }
 
+.list-hi{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 565px;
+    height: 275px;
+    text-align: center;
+    margin: 1%;
+}
+
 .list-s{
     border-radius: 0px;
     background: #2E2E2E;
