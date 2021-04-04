@@ -109,7 +109,7 @@ a:active {
 
 .list{
     float: right;
-    border-radius: 25px;
+    border-radius: 0px;
     background: #2E2E2E;
     padding: 1%;
     width: 240px;
