@@ -76,18 +76,6 @@ footer{
     padding: 0px;
     box-sizing: border-box;
 }
-
-.container-orange{
-    top: 250px;
-    max-width: 900px;
-    min-width: 880px;
-    height: 500px;
-    border: 1px;
-    margin: auto;
-    padding: 0px;
-    background-color: #fb5804;
-    box-sizing: border-box;
-}
   
 .header {
     color: #C0C0C0;
