@@ -59,7 +59,6 @@ footer{
     background-color: #222;
     height: 80px;
     border: 1px;
-    align-items: center;
     padding: 0px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -74,6 +73,18 @@ footer{
     border: 1px;
     margin: auto;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-orange{
+    position: relative;
+    max-width: 900px;
+    min-width: 900px;
+    height: 500px;
+    border: 1px;
+    margin: auto;
+    padding: 0px;
+    background-color: #fb5804;
     box-sizing: border-box;
 }
   
