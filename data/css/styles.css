@@ -86,7 +86,6 @@ footer{
 a:hover {
     color: #fb5804;
     text-decoration:none
-  
 }
 
 a:active {
@@ -186,6 +185,10 @@ a:active {
     border-radius: 40px;
     border: none;
     outline: 0;
+}
+
+button:hover {
+    opacity:1;
 }
 
 .clear{
