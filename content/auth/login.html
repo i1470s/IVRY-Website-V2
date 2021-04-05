@@ -127,6 +127,7 @@
             <center><h2 class="header">Log in</h2></center>
             <center><h3 class="header">Please fill in this form</h3></center>
             <br>        
+                <form name="login" method="REQUEST" data-netlify="true">
                 <div>
                     <label for="email"><b>Email</b></label>
                     <br>
@@ -140,6 +141,13 @@
                     <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
                     </label>
                 </div>
+                <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+                <div data-netlify-identity-menu></div>
+
+                <!-- Add a simpler button:
+                  Simple button that will open the modal.
+                -->
+                <div data-netlify-identity-button>Login with Netlify Identity</div>
               <div class="clearfix">
                 <button type="submit" class="signupbtn">Log in</button>
               </div>
