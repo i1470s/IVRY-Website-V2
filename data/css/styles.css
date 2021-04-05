@@ -187,6 +187,20 @@ a:active {
     outline: 0;
 }
 
+.login-button {
+    color: #fb5804;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;  
+    width: 55px;
+    height: 55px;
+    background: #222;
+    border-radius: 25px;
+    border: none;
+    outline: 0;
+}
+
 button:hover {
     opacity:1;
 }
