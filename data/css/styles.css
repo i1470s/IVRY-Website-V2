@@ -128,6 +128,17 @@ a:active {
     margin: 1%;
 }
 
+.list-info{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 100%;
+    height: 368px;
+    text-align: center;
+    margin: 1%;
+}
+
 .list-ss{
     float: right;
     border-radius: 0px;
