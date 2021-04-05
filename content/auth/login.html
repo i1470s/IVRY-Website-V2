@@ -8,7 +8,7 @@
   Created by i1470s#0396 Welcome :)-->
 <html lang="en">
 <head>
-    <Title>I V R Y - Log in</title>
+    <Title>I V R Y - Sign up</title>
     <!-- REQS -->
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="https://ivry.tk/data/images/icon.png">
@@ -30,6 +30,138 @@
     <link rel="apple-touch-icon" href="https://ivry.tk/data/images/icon.png">
     <meta name="Description" content="Home Page">
     <link rel="icon" type="image/png" href="data/images/icon.png" sizes="256x256"/>
-</head>    
-
+</head> 
 <body>
+    <style>
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 250px;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #2E2E2E;
+        }
+        
+        /* Add a background color when the inputs get focus */
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Set a style for all buttons */
+        button {
+          background-color: #2E2E2E;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        button:hover {
+          opacity:1;
+        }
+        
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+          padding: 14px 20px;
+          background-color: #f44336;
+        }
+        
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn, .signupbtn {
+          float: left;
+          width: 50%;
+        }
+        
+        /* Style the horizontal ruler */
+        hr {
+          border: 1px solid #fb5804;
+          margin-bottom: 25px;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #f44336;
+          cursor: pointer;
+        }
+        
+        /* Clear floats */
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+          .cancelbtn, .signupbtn {
+             width: 100%;
+          }
+        }
+</style>
+    
+    <!--HEADER-->
+
+        <div id="header" class="head">
+            <a href="https://ivry.tk/"><img style="margin-left: 10px;" width=256px height=41px alt="IVRY Logo" class="logo" src="https://ivry.tk/data/images/icon.png"/></a>
+                
+            <h3 style="float: right;"><a class=header href="https://ivry.tk/">Home</a>  
+                
+            <a class=header href="https://ivry.tk/services">Services</a>  
+            
+            <a class=header href="https://ivry.tk/tutorials">Tutorials</a>  
+            
+            <a style="margin-right: 10px;" class=header href="https://ivry.tk/shop">Shop</a></h3>
+        </div>
+
+    <div id="page">
+        <div id="content">
+
+        <!--PAGE LIST-->
+
+        <div id="list" class="container">    
+            <center><h2 class="header">Log in</h2></center>
+            <center><h3 class="header">Please fill in this form</h3></center>
+            <br>        
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <br>
+                    <label for="psw"><b>Password</b></label>
+                    <br>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+                </div>
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Log in</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+    <!--FOOTER-->        
+        
+        <footer>
+            <div id="footer" class="footer">
+                <h4><a style="margin-right: 10px;"></a><a href="https://ivry.tk/"><img width=256px height=41px alt="The Lash Factory Logo" class="logo" src="https://ivry.tk/data/images/icon.png"/></a> <a class="header" style="float: right; margin-right: 15px;" href="https://ivry.tk/data/policies/Copyright.json"><p>Copyright</p></a>  <a class="header" style="float: right; margin-right: 15px;" href="https://ivry.tk/data/policies/PrivacyPolicy.json"><p>Privacy Policy</p></a> <a class="header" style="float: right; margin-right: 15px; margin-left: 340px;" href="https://ivry.tk/data/policies/TAC.json"><p>Terms and Conditions</p></a></h4> 
+                 
+                <center><a style="margin-right: 10px;" href="https://www.instagram.com/Ivry_Network/"><img width=290px height=41px alt="Instagram" class="logo" src="https://ivry.tk/data/images/icon-instagram.png"/></a> 
+
+                <a style="margin-right: 10px;" href="https://www.twitter.com/Brayden_viana"><img width=290px height=41px alt="Twitter" class="logo" src="https://ivry.tk/data/images/icon-twitter.png"/></a>
+
+                <a href="https://www.facebook.com/brayden.viana/"><img width=290px height=41px alt="Facebook" class="logo" src="https://ivry.tk/data/images/icon-facebook.png"/></a></center>
+
+            <center><h3>IVRY 2021 All Rights Reserved</h3><center>
+            </div>
+        </footer>
+
+</body>
+</html>
