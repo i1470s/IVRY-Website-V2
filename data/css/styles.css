@@ -188,14 +188,14 @@ a:active {
 }
 
 .login-button {
-    color: #fb5804;
+    color: #C0C0C0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 17px;  
     width: 55px;
     height: 55px;
-    background: #222;
+    background: #fb5804;
     border-radius: 25px;
     border: none;
     outline: 0;
