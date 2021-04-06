@@ -6,14 +6,13 @@
  |_____|     \_/     |____| |___||______|
   Created by i1470s#0396 Welcome :)*/
   
-  const divInstall = document.getElementById('installContainer');
-  const butInstall = document.getElementById('butInstall');
+if('serviceWorker' in navigator) {
+  let registration;
   
-  /* Put code here */
+  const registerServiceWorker = async () => {
+    registration = await          
+    navigator.serviceWorker.register('./service-worker.js');
+  };
   
-  
-  
-  /* Only register a service worker if it's supported */
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-Worker.js');
-  }
+  registerServiceWorker();
+}
