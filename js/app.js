@@ -11,7 +11,7 @@ if('serviceWorker' in navigator) {
   
   const registerServiceWorker = async () => {
     registration = await          
-    navigator.serviceWorker.register('./service-worker.js');
+    navigator.serviceWorker.register('./service-Worker.js');
   };
   
   registerServiceWorker();
