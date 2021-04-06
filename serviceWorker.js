@@ -6,8 +6,8 @@
  |_____|     \_/     |____| |___||______|
   Created by i1470s#0396 Welcome :)*/
   
-  const cacheName = 'my-cache';
-  const filestoCache = [
+const cacheName = 'OFFLINE';
+const filestoCache = [
     '/',
     '/index.html',
     '/data/css/styles.css',
