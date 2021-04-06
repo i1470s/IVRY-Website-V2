@@ -6,13 +6,13 @@
  |_____|     \_/     |____| |___||______|
   Created by i1470s#0396 Welcome :)*/
   
-if('serviceWorker' in navigator) {
-  let registration;
-  
-  const registerServiceWorker = async () => {
-    registration = await          
-    navigator.serviceWorker.register('./serviceWorker.js');
-  };
-  
-  registerServiceWorker();
+if ('serviceWorker' in navigator) {
+   navigator.serviceWorker.register('serviceWorker.js');
 }
+  
+document.querySelector('#show').addEventListener('click', () => {
+  const iconUrl = document.querySelector('select').selectedOptions[0].value;
+  let imgElement = document.createElement('img');
+  imgElement.src = iconUrl;
+  document.querySelector('#container').appendChild(imgElement);
+});
