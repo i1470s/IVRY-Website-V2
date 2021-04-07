@@ -188,7 +188,6 @@ a:active {
 
 .login-button {
     color: #C0C0C0;
-    text-emphasis-color: #C0C0C0;;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -199,6 +198,11 @@ a:active {
     border-radius: 25px;
     border: none;
     outline: 0;
+}
+
+a.netlify-identity-button {
+    text-decoration: none;
+    color: #C0C0C0;
 }
 
 button:hover {
