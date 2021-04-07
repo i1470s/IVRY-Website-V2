@@ -202,12 +202,12 @@ a:active {
 
 a.netlify-identity-button {
     text-decoration: none;
-    color: #C0C0C0;
+    color: #fb5804;
 }
 
 a.netlify-identity-button:hover {
     text-decoration: none;
-    color: #fb5804;
+    color: #C0C0C0;
 }
 
 button:hover {
