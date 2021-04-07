@@ -205,6 +205,11 @@ a.netlify-identity-button {
     color: #C0C0C0;
 }
 
+a.netlify-identity-button:hover {
+    text-decoration: none;
+    color: #fb5804;
+}
+
 button:hover {
     opacity:1;
 }
