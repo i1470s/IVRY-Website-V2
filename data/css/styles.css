@@ -90,7 +90,6 @@ a:hover {
 
 a:active {
     color: #C0C0C0;
-  
 }
 
 /****** SCROLL BAR *********/
@@ -189,6 +188,7 @@ a:active {
 
 .login-button {
     color: #C0C0C0;
+    text-emphasis-color: #C0C0C0;;
     text-align: center;
     text-decoration: none;
     display: inline-block;
