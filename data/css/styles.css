@@ -186,20 +186,6 @@ a:active {
     outline: 0;
 }
 
-.login-button {
-    color: #C0C0C0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;  
-    width: 80px;
-    height: 25px;
-    background: #2E2E2E;
-    border-radius: 25px;
-    border: none;
-    outline: 0;
-}
-
 a.netlify-identity-button {
     text-decoration: none;
     color: #fb5804;
