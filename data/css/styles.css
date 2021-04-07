@@ -186,10 +186,6 @@ a:active {
     outline: 0;
 }
 
-.netlify-identity-button{
-   text-decoration:none
-}
-
 a.netlify-identity-button {
     text-decoration: none;
     color: #fb5804;
