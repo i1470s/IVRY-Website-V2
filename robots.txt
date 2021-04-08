@@ -1,4 +1,6 @@
+# robots.txt for https://ivry.tk
+
 User-Agent: * 
-Allow: / 
+Disallow: /content/services/cheat.html
 
 Sitemap: https://ivry.tk/sitemap.xml
