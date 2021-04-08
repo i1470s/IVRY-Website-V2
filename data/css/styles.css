@@ -150,6 +150,18 @@ a:active {
     margin: 1%;
 }
 
+.feed2{
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    align-items: center;
+    padding: 1%;
+    width: 282.5px;
+    height: 31px;
+    text-align: center;
+    margin: 1%;
+}
+
 .list-shop{
     float: left;
     border-radius: 0px;
