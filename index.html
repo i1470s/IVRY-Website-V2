@@ -92,21 +92,32 @@
                
 <script type="text/javascript">
 window.ss360Config = {
-    suggestions: {
-        show: false,
-        num: "5"
-    },
     style: {
+        accentColor: "#FB5804",
+        suggestions: {
+            text: {
+                color: "#FFFFFF"
+            },
+            background: {
+                color: "#2E2E2E"
+            },
+            padding: "10px",
+            distanceFromTop: "0px",
+            border: {
+                color: "#dddddd",
+                radius: "0px"
+            }
+        },
         searchBox: {
             text: {
-                color: "#333333",
+                color: "#FB5804",
                 size: "14px"
             },
             background: {
-                color: "#ffffff"
+                color: "#2E2E2E"
             },
             border: {
-                color: "#dddddd",
+                color: "#FB5804",
                 radius: "0px"
             },
             padding: "8px",
@@ -114,26 +125,11 @@ window.ss360Config = {
                 image: "magnifier",
                 color: "#666666"
             }
-        }
-    },
-    searchBox: {
-        placeholder: "search"
-    },
-    results: {
-        embedConfig: {
-            contentBlock: "#ss360-target"
-        }
+        },
+        additionalCss: ""
     },
     tracking: {
         providers: []
-    },
-    layout: {
-        navigation: {
-            position: "left"
-        }
-    },
-    filters: {
-        enabled: true
     },
     siteId: "ivry.tk",
     showErrors: false
