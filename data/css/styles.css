@@ -183,6 +183,17 @@ a:active {
     text-align: center;
     margin: 1%;
 }
+
+.list-empty2{
+    float: right;
+    border-radius: 0px;
+    background: #222;
+    padding: 1%;
+    width: 315px;
+    height: 190px;
+    text-align: center;
+    margin: 1%;
+}
   
 .button {
     color: #C0C0C0;
