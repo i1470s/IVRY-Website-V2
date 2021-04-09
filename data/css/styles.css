@@ -127,6 +127,17 @@ a:active {
     margin: 1%;
 }
 
+.list291{
+    float: right;
+    border-radius: 0px;
+    background: #2E2E2E;
+    padding: 1%;
+    width: 29.33%;
+    height: 380px;
+    text-align: center;
+    margin: 1%;
+}
+
 .list-h{
     float: left;
     border-radius: 0px;
