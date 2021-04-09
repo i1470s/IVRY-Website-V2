@@ -124,15 +124,33 @@ window.ss360Config = {
             icon: {
                 image: "magnifier",
                 color: "#666666"
-            }
         },
-        additionalCss: ""
+        loaderType: "circle",
+        animationSpeed: 50
+    },
+    searchBox: {
+        placeholder: "search"
+    },
+    results: {
+        embedConfig: {
+            contentBlock: "#ss360-target",
+            url: "/search"
+        }
     },
     tracking: {
         providers: []
     },
+    layout: {
+        navigation: {
+            position: "left"
+        }
+    },
+    filters: {
+        enabled: true
+    },
     siteId: "ivry.tk",
     showErrors: false
+    }   
 };
 
 var e=document.createElement("script");
