@@ -32,7 +32,6 @@ const PRECACHE_URLS = [
   'serviceWorker.js',
   'data/css/styles.css',
   'js/app.js',
-  'js/pwacompat'
 ];
 
 // The install handler takes care of precaching the resources we always need.
