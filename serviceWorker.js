@@ -39,7 +39,10 @@ const PRECACHE_URLS = [
   'data/images/icon-twitter.png',
   'data/images/icon-discord.png',
   'serviceWorker.js',
-  'js/app.js'
+  'js/app.js',
+  'robots.txt',
+  'sitemap.xml',
+  'manifest.json'
 ];
 
 // The install handler takes care of precaching the resources we always need.
