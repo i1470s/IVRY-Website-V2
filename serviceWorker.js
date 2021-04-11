@@ -27,8 +27,8 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  '404.html',
   'index.html',
+  '/',
   'shop.html',
   'services.html',
   'tutorials.html', 
@@ -40,6 +40,7 @@ const PRECACHE_URLS = [
   'data/images/icon-discord.png',
   'serviceWorker.js',
   'js/app.js',
+  '404.html',
   'robots.txt',
   'sitemap.xml',
   'manifest.json'
