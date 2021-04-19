@@ -2,5 +2,6 @@
 
 User-Agent: * 
 Disallow: /content/services/cheat.html
+Disallow: /content/home/suprise.html
 
 Sitemap: https://ivry.tk/sitemap.xml
