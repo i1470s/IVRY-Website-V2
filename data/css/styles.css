@@ -53,7 +53,6 @@ footer{
 
 .head{
     justify-content: space-between;
-    position: fixed;
     display: flex;
     max-width: 880px;
     min-width: 880px;
