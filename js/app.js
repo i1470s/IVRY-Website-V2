@@ -7,6 +7,6 @@
   Created by i1470s#0396 Welcome :)*/
   
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('serviceWorker.js');
+    navigator.serviceWorker.register('serviceWorke.js');
 }
   
