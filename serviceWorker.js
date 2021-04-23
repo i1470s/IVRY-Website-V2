@@ -18,7 +18,7 @@ self.addEventListener('install', function(event) {
   // long install takes, and if it failed
   event.waitUntil(
     // We open a cache…
-    caches.open('simple-sw-v1').then(function(cache) {
+    caches.open('IVRY-Cache-v1').then(function(cache) {
       // And add resources to it
       return cache.addAll([
         'index.html',
