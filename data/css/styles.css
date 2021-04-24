@@ -201,6 +201,8 @@ a:active {
     background: #2E2E2E;
     align-items: center;
     padding: 1%;
+    max-width: 880px;
+    min-width: 880px;
     width: 100%;
     height: 31px;
     text-align: center;
