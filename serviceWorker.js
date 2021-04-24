@@ -22,7 +22,6 @@ self.addEventListener('install', function(event) {
       // And add resources to it
       return cache.addAll([
         'index.html',
-        '/',
         'shop.html',
         'services.html',
         'tutorials.html', 
