@@ -34,6 +34,7 @@ footer{
     display: flex;
     max-width: 880px;
     min-width: 880px;
+    align-items: center;
     height: -150px;
     background-color: #222;
     color: #c8c8c8c8;
