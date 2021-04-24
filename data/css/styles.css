@@ -195,6 +195,18 @@ a:active {
     margin: 1%;
 }
 
+.feed-shop{ 
+    float: left;
+    border-radius: 0px;
+    background: #2E2E2E;
+    align-items: center;
+    padding: 1%;
+    width: 880px;
+    height: 31px;
+    text-align: center;
+    margin: 1%;
+}
+
 .list-empty{
     float: right;
     border-radius: 0px;
