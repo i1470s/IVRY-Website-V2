@@ -25,7 +25,7 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/index.html/#"
+  from = "/#"
   to = "/shop.html"
   status = 200
 
