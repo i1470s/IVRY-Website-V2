@@ -31,6 +31,7 @@ const SearchPage = () => {
             </div>            
             <body className="App-body">
                 <h1>Search</h1>
+                <b><p>Coming Soon</p></b>
             </body>
             <footer className="App-footer">
                 <br></br>

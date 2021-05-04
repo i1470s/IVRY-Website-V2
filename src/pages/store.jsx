@@ -31,6 +31,7 @@ const StorePage = () => {
             </div>
             <body className="App-body">
                 <h1>Store</h1>
+                <b><p>Coming Soon</p></b>
             </body>
             <footer className="App-footer">
                 <br></br>
