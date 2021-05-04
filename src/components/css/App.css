@@ -21,13 +21,12 @@ body {
   max-height: 100vh;
   max-width: 100vw;
   border-bottom: #fb5804 1px solid;
-  display: sticky;
-  top: 0;
+  display: flex;
 }
 
 .App-header {
   background-color: #222;
-  display: sticky;
+  display: flex;
   max-width: 100vw;
   margin: 0 auto;
   flex-direction: row;
