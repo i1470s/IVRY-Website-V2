@@ -31,7 +31,6 @@ const HomePage = () => {
         </div>
         <body className="App-body">
           <h1>Home</h1>
-          <b><a className="App-link" href="/store" rel="noopener noreferrer">Store</a></b>
           <b><p>Welcome to IVRY</p></b>
         </body>
         <footer className="App-footer">
