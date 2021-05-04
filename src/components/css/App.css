@@ -1,0 +1,90 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #222;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #222;
+}
+
+.nav {
+  max-height: 100vh;
+  max-width: 100vw;
+  border-bottom: #fb5804 1px solid;
+  display: flex;
+}
+
+.App-header {
+  background-color: #222;
+  display: flex;
+  max-width: 100vw;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0.1px;
+  font-size: calc(7px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fb5804;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;  
+  width: 160px;
+  height: 25px;
+  background: #2E2E2E;
+  border-radius: 40px;
+  border: none;
+  outline: 0;
+}
+
+.App-body {
+  background-color: #222;
+  min-height: 100vh;
+  max-width: 100vw;
+  letter-spacing: 0.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(7px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  color: #fb5804;
+  background-color: #222;
+  border-top: #fb5804 1px solid;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
