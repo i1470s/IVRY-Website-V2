@@ -18,7 +18,7 @@ import '../components/css/App.css';
 const MainPage = () => {
     return (
       <div className="App">
-        <body style={{overflow: "hidden"}} className="App-body">
+        <body style={{overscroll-behavior: "contain"}} className="App-body">
           <img src={logo} className="App-logo" alt="logo" />
           <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
           <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To Site</a></b>
