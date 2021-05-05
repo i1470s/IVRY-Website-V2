@@ -1,3 +1,5 @@
+/*ROOT CSS*/
+
 html {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -12,42 +14,31 @@ body {
   -webkit-touch-callout: none;
 }
 
+/*APP CSS*/
+
 .App {
   text-align: center;
   background-color: #222;
 }
 
 .nav {
-  max-height: 100vh;
-  max-width: 100vw;
+  overflow: hidden;
   border-bottom: #fb5804 1px solid;
-  display: flex;
+  position: fixed;
+  top: 0; 
+  width: 100%;
 }
 
 .App-header {
   background-color: #222;
-  display: flex;
   max-width: 100vw;
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-between;
   letter-spacing: 0.1px;
   font-size: calc(7px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #fb5804;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;  
-  width: 160px;
-  height: 25px;
-  background: #2E2E2E;
-  border-radius: 40px;
-  border: none;
-  outline: 0;
+  float: right;
+  display: block;
 }
 
 .App-body {
@@ -70,6 +61,22 @@ body {
   border-top: #fb5804 1px solid;
 }
 
+.App-link {
+  color: #fb5804;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;  
+  width: 160px;
+  height: 25px;
+  background: #2E2E2E;
+  border-radius: 40px;
+  border: none;
+  outline: 0;
+}
+
+/*MEDIA / IMAGES*/
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -88,4 +95,15 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 13px; 
+}
+
+::-webkit-scrollbar:hover {
+  height: 18px; 
 }
