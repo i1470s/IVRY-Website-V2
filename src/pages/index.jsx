@@ -23,6 +23,12 @@ const MainPage = () => {
                 <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
                 <b><p style={{fontSize: "12px"}}>V.3.alpha</p></b>
                 <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To Site</a></b>
+          
+          <script>
+               document.addEventListener('touchmove',
+                function(e) {
+                 e.preventDefault();}, {passive:false});
+          </script>
           </body>
         </div>
       </div>
