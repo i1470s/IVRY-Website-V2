@@ -25,6 +25,7 @@ body {
   overflow: hidden;
   border-bottom: #fb5804 1px solid;
   position: fixed;
+  background-color: #222;
   top: 0; 
   width: 100%;
 }
@@ -60,6 +61,8 @@ body {
   background-color: #222;
   border-top: #fb5804 1px solid;
 }
+
+/*LINKS*/
 
 .App-link {
   color: #fb5804;
