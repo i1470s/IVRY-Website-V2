@@ -13,7 +13,7 @@ import '../components/css/App.css';
 
 const MainPage = () => {
     return (
-      <div className="App">
+      <div id="Content" className="App">
         <body className="App-body">
           <img src={logo} className="App-logo" alt="logo" />
           <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
