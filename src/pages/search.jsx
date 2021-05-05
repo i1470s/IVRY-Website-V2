@@ -39,6 +39,7 @@ const SearchPage = () => {
             <div id="Footer">
                 <footer className="App-footer">
                       <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀
+                      <a href="/learn"><img width="30px" height="40px" alt="search" src={learn}/></a>⠀⠀
                       <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀
                       <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>
                 </footer>
