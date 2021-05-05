@@ -27,7 +27,8 @@ const MainPage = () => {
           <script>
                document.addEventListener('touchmove',
                 function(e) {
-                 e.preventDefault();}, {passive:false});
+                 e.preventDefault();
+                 }, {passive:false});
           </script>
           </body>
         </div>
