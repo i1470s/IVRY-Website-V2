@@ -18,7 +18,7 @@ const HomePage = () => {
       <div className="App">
         <div className="nav">
           <header className="App-header">
-                <b style={{color: "#fb5804"}}>IVRY</b> <b style={{color: "#fff",fontSize: "10px"}}>V.3</b>
+                <b style={{ fontSize: "30px", color: "#fb5804"}}>IVRY</b> <b style={{color: "#fff", fontSize: "10px"}}>V.3</b>
           </header>
         </div>
         <body className="App-body">
@@ -26,7 +26,6 @@ const HomePage = () => {
           <b><p>Welcome to IVRY</p></b>
         </body>
         <footer className="App-footer">
-            <br></br>
                 <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀
                 <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀
                 <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>
