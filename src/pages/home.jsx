@@ -26,13 +26,11 @@ const HomePage = () => {
           <b><p>Welcome to IVRY</p></b>
           <b><p>Were a group of Hackers / Coders learning new languages, and algorithms everyday, we offer a wide range of applications, products and services available to you in our shop and services sections. Whilst this is a website for IVRY and all our work, it is also my personal website if you have any questions or need support feel free to contact us at one of our socials linked at the bottem of the page, have a great day, and again welcome. IVRY Est. 1-24-2018</p></b>
         </body>
-        <div classname="nav2">
         <footer className="App-footer">
                 <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀
                 <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀
                 <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>
         </footer>
-        </div>
       </div>
     );
   }

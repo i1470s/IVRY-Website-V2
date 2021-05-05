@@ -30,18 +30,6 @@ body {
   width: 100%;
 }
 
-.nav2 {
-  color: #fb5804;
-  position: fixed;
-  background-color: #222;
-  bottom: 0; 
-  height: 65px;
-  width: 100%;
-  justify-content: space-evenly;
-  background-color: #222;
-  border-top: #fb5804 1px solid;
-}
-
 .App-header {
   background-color: #222;
   max-width: 100vw;
@@ -69,8 +57,15 @@ body {
 }
 
 .App-footer {
-  display: fixed;
+  color: #fb5804;
+  position: fixed;
+  background-color: #222;
+  bottom: 0; 
+  height: 65px;
+  width: 100%;
   justify-content: space-evenly;
+  background-color: #222;
+  border-top: #fb5804 1px solid;
 }
 
 /*LINKS*/
