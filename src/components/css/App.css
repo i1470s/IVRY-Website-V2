@@ -112,7 +112,7 @@ a {
 @media only screen and (orientation:landscape){
   body { 
     height: 100vw;
-    transform: rotate(360deg);
+    transform: rotate(270deg);
   }
 }
 
