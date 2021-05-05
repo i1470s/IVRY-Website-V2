@@ -37,6 +37,7 @@ body {
   bottom: 0; 
   height: 65px;
   width: 100%;
+  justify-content: space-evenly;
   background-color: #222;
   border-top: #fb5804 1px solid;
 }
