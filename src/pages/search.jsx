@@ -18,7 +18,7 @@ const SearchPage = () => {
         <div className="App">
             <div className="nav">
             <header className="App-header">
-                <b style={{ fontSize: "30px", color: "#fb5804"}}>IVRY</b> <b style={{color: "#fff", fontSize: "10px"}}>V.3</b>
+                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3</b>
             </header>
             </div>            
             <body className="App-body">

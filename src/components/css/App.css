@@ -84,6 +84,10 @@ body {
   outline: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*MEDIA / IMAGES*/
 
 .App-logo {
