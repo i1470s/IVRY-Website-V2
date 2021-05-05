@@ -109,12 +109,7 @@ a {
   }
 }
 
-@media only screen and (orientation:landscape){
-  body { 
-    height: 100vw;
-    transform: rotate(270deg);
-  }
-}
+@media (screen.orientation.lock(portrait)
 
 /*SCROLLBAR*/
 
