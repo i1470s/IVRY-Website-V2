@@ -60,6 +60,7 @@ body {
   color: #fb5804;
   position: fixed;
   background-color: #222;
+  margin-bottom: 15px;
   bottom: 0; 
   width: 100%;
   justify-content: space-between;
