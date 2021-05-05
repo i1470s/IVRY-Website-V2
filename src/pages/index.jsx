@@ -2,7 +2,7 @@
 import React from "react";
 
 /*Image Imports*/
-import logo from '../components/images/logo.svg';
+import logo from '../components/images/icon.svg';
 
 /*CSS Imports*/
 import '../components/css/App.css';
