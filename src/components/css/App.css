@@ -23,7 +23,7 @@ body {
 
 .nav {
   overflow: hidden;
-  border-bottom: #696969 1px solid;
+  border-bottom: #222 1px solid;
   position: fixed;
   background-color: #000;
   top: 0; 
@@ -64,7 +64,7 @@ body {
   height: 65px;
   width: 100%;
   justify-content: space-evenly;
-  border-top: #696969 1px solid;
+  border-top: #222 1px solid;
 }
 
 /*LINKS*/
