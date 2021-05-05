@@ -5,6 +5,7 @@ import React from "react";
 import home from '../components/images/home.svg';
 import store from '../components/images/store.svg';
 import search from '../components/images/search.svg';
+import learn from '../components/images/learn.svg';
 
 /*CSS Imports*/
 import '../components/css/App.css';
