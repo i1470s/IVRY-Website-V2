@@ -5,6 +5,7 @@ import React from "react";
 import home from '../components/images/home.svg';
 import store from '../components/images/store.svg';
 import search from '../components/images/search.svg';
+import learn from '../components/images/learn.svg';
 
 /*CSS Imports*/
 import '../components/css/App.css';
@@ -42,6 +43,7 @@ const HomePage = () => {
                 <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀
                 <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀
                 <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>
+                <a href="/learn"><img width="30px" height="40px" alt="search" src={learn}/></a>
           </footer>
         </div>
       </div>
