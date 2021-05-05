@@ -18,12 +18,13 @@ const HomePage = () => {
       <div className="App">
         <div className="nav">
           <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3</b>
+                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3.alpha</b>
           </header>
         </div>
         <body className="App-body">
           <h1>Home</h1>
           <b><p>Welcome to IVRY</p></b>
+          <b><p>Content Coming Soon!!!</p></b>
         </body>
         <footer className="App-footer">
                 <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀
