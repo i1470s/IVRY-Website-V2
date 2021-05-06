@@ -1,7 +1,3 @@
-// Chrome's currently missing some useful cache methods,
-// this polyfill adds them.
-importScripts('./components/js/cache-pollyfill.js');
-
 // Here comes the install event!
 // This only happens once, when the browser sees this
 // version of the ServiceWorker for the first time.
