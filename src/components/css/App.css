@@ -90,7 +90,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  opacity: 2;
+  opacity: .5;
 }
 
 /*MEDIA / IMAGES*/
