@@ -18,7 +18,7 @@ const MainPage = () => {
       
       
         <div id="Content"> 
-          <body className="App-body">
+          <body className="App-body" style={{position: "fixed"}}>
                 <img src={logo} className="App-logo" alt="logo" />
                 <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
                 <b><p style={{fontSize: "12px"}}>V.3.alpha</p></b>
