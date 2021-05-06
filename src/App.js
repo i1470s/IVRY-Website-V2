@@ -13,6 +13,7 @@ import {
 import MainPage from "./pages";
 import PageNotFound from "./pages/404";
 import HomePage from "./pages/home";
+import LearnPage from "./pages/learn";
 import StorePage from "./pages/store";
 import SearchPage from "./pages/search";
 
@@ -24,6 +25,7 @@ class App extends Component {
       <Switch>
       <Route exact path="/" component={MainPage}/>
       <Route exact path="/home" component={HomePage}/>
+      <Route exact path="" component={LearnPage}/>
       <Route exact path="/store" component={StorePage}/>
       <Route exact path="/search" component={SearchPage}/>
       <Route exact path="/404" component={PageNotFound}/>
