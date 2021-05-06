@@ -23,6 +23,9 @@ const MainPage = () => {
                 <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
                 <b><p style={{fontSize: "12px"}}>V.3.alpha</p></b>
                 <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To Site</a></b> 
+            <div class="loader-wrapper">
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
           </body>
         </div>
       </div>
