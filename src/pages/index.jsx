@@ -22,7 +22,7 @@ const MainPage = () => {
                 <img src={logo} className="App-logo" alt="logo" />
                 <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
                 <b><p style={{fontSize: "12px"}}>V.3.alpha</p></b>
-                <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To Site</a></b> 
+                <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To App</a></b> 
           </body>
         </div>
       </div>
