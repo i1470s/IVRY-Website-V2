@@ -30,10 +30,23 @@ const SearchPage = () => {
             
             <div id="Content">         
                 <body className="App-body">
-                      <h1>Search</h1>
                       <form onsubmit="event.preventDefault();" role="search">
                       <input id="search" type="search" placeholder="Search..." autofocus required />
                       </form>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
+                      <p>rawr</p>
                 </body>
             </div>
             

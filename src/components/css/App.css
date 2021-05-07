@@ -54,7 +54,8 @@ body {
   justify-content: center;
   font-size: calc(7px + 2vmin);
   color: white;
-  overflow: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .App-footer {
@@ -126,15 +127,16 @@ a:hover {
   height: 18px; 
 }
 
-/*TEST*/
+/*SEARCH-TESTING*/
 
 input, button {
-  height: var(--height);
+  height: 5;
   font-family: var(--font-fam);
   border: 0;
   color: var(--color-dark);
   font-size: 1.8rem;
 }
+
 input[type="search"] {
   outline: 1px; 
   width: 75%;
@@ -143,10 +145,15 @@ input[type="search"] {
   border-radius: 25px;
   transition: all var(--dur) var(--bez);
   transition-property: width, border-radius;
-  z-index: 1;
-  position: relative;
+  position: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
 }
+
 input:not(:placeholder-shown) {
   border-radius: 25px;
   width: 90%;
+  top: 0;
 }
