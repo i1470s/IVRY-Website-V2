@@ -148,5 +148,5 @@ input[type="search"] {
 }
 input:not(:placeholder-shown) {
   border-radius: 25px;
-  width: 100%;
+  width: 90%;
 }
