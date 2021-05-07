@@ -21,7 +21,11 @@ self.addEventListener('install', function(event) {
         'manifest.json',
         'serviceworker-cache-pollyfill.js',
         'custom-service-worker.js',
-        'static/media/learn.e9763d0f.svg'
+        'static/media/learn.e9763d0f.svg',
+        'static/media/home.04b971e3.svg',
+        'static/media/search.c2695fe2.svg',
+        'static/media/store.959bd9ff.svg',
+        'static/media/icon.a7d57ca9.svg'
       ]);
     })
   );
