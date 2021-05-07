@@ -21,10 +21,7 @@ self.addEventListener('install', function(event) {
         'manifest.json',
         'serviceworker-cache-pollyfill.js',
         'custom-service-worker.js',
-        'http://ivry.tk/static/media/home.04b971e3.svg',
-        'http://ivry.tk/static/media/learn.e9763d0f.svg',
-        'http://ivry.tk/static/media/search.c2695fe2.svg',
-        'http://ivry.tk/static/media/store.959bd9ff.svg'
+        'static/media/learn.e9763d0f.svg'
       ]);
     })
   );
