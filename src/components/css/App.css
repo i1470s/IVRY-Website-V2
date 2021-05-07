@@ -136,40 +136,17 @@ input, button {
   font-size: 1.8rem;
 }
 input[type="search"] {
-  outline: 0; 
-  width: 100%;
-  background: var(--color-light);
+  outline: 1px; 
+  width: 75%;
+  background: #222;
   padding: 0 1.6rem;
-  border-radius: var(--rad);
-  appearance: none;
+  border-radius: 25px;
   transition: all var(--dur) var(--bez);
   transition-property: width, border-radius;
   z-index: 1;
   position: relative;
 }
-button {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: var(--btn-width);
-  font-weight: bold;
-  background: var(--color-brand);
-  border-radius: 0 var(--rad) var(--rad) 0;
-}
 input:not(:placeholder-shown) {
-  border-radius: var(--rad) 0 0 var(--rad);
-  width: calc(100% - var(--btn-width));
-  + button {
-    display: block;
-  }
-}
-label {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+  border-radius: 25px;
+  width: 100%;
 }
