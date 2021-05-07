@@ -56,6 +56,7 @@ body {
   color: white;
   margin-top: 75px;
   margin-bottom: 75px;
+  overflow: auto;
 }
 
 .App-footer {
@@ -125,6 +126,7 @@ a:hover {
 
 ::-webkit-scrollbar:hover {
   height: 18px; 
+  width: 0px;
 }
 
 /*SEARCH-TESTING*/

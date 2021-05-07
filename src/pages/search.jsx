@@ -33,20 +33,6 @@ const SearchPage = () => {
                       <form onsubmit="event.preventDefault();" role="search">
                       <input id="search" type="search" placeholder="Search..." autofocus required />
                       </form>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
-                      <p>rawr</p>
                 </body>
             </div>
             
