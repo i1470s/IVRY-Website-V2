@@ -12,8 +12,6 @@ body {
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 /*APP CSS*/
@@ -30,6 +28,7 @@ body {
   top: 0; 
   width: 100%;
   height: 50px;
+  margin-bottom: 75px;
 }
 
 .App-header {
@@ -55,7 +54,7 @@ body {
   justify-content: center;
   font-size: calc(7px + 2vmin);
   color: white;
-  margin-top: 75px;
+  overflow: auto;
   margin-bottom: 75px;
 }
 
