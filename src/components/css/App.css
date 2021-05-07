@@ -57,6 +57,7 @@ body {
   margin-top: 75px;
   margin-bottom: 75px;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .App-footer {
