@@ -30,6 +30,7 @@ const SearchPage = () => {
             
             <div id="Content">         
                 <body className="App-body">
+                      <input class="search__input" type="text" placeholder="Search"/>
                       <h1>Search</h1>
                       <b><p>Coming Soon</p></b>
                 </body>
