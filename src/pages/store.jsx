@@ -30,6 +30,9 @@ const StorePage = () => {
             
             <div id="Content">         
                 <body className="App-body">
+                      <br/>
+                      <br/>
+                      <br/>
                       <h1>Store</h1>
                       <b><p>Coming Soon</p></b>
                 </body>

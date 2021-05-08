@@ -30,6 +30,9 @@ const PageNotFound = () => {
             
             <div id="Content">         
                 <body className="App-body">
+                      <br/>
+                      <br/>
+                      <br/>
                       <h1>404 Resource Not Found</h1>
                 </body>
             </div>

@@ -30,6 +30,9 @@ const LearnPage = () => {
             
             <div id="Content">         
                 <body className="App-body">
+                      <br/>
+                      <br/>
+                      <br/>
                       <h1>Learn</h1>
                       <b><p>Coming Soon</p></b>
                 </body>
