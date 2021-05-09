@@ -128,7 +128,22 @@ a:hover {
   width: 0px;
 }
 
-/*SEARCH-TESTING*/
+/*HOME-TAB*/
+
+.card {
+  width: 80%;
+  float: left;
+  color: #fff;
+  text-align: left;
+  height: 35px;
+  background-color: #28282B;
+  border: #222 1px solid;
+  border-radius: 25px;
+  margin: 1%;
+  padding: 1%;
+}
+
+/*SEARCH-TAB*/
 
 input, button {
   height: 5;
