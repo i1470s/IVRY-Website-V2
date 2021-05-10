@@ -6,6 +6,7 @@ import home from '../components/images/home.svg';
 import store from '../components/images/store.svg';
 import search from '../components/images/search.svg';
 import learn from '../components/images/learn.svg';
+import user from '../components/images/user.svg'
 
 /*CSS Imports*/
 import '../components/css/App.css';
@@ -22,7 +23,7 @@ const HomePage = () => {
         
         <div id="Nav-bar" className="nav">
           <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3.alpha</b>
+                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3.alpha</b> <a href="/learn"><img width="30px" height="40px" alt="search" src={user}/></a>
           </header>
         </div>
         
