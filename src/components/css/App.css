@@ -131,10 +131,10 @@ a:hover {
 /*HOME-TAB*/
 
 .card {
-  width: 80%;
+  width: 60%;
   float: left;
   color: #fff;
-  text-align: left;
+  text-align: center;
   height: 35px;
   background-color: #28282B;
   border: #222 1px solid;
