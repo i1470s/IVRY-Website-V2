@@ -39,7 +39,6 @@ body {
   justify-content: space-evenly;
   letter-spacing: 0.1px;
   font-size: calc(7px + 2vmin);
-  float: left;
   display: block;
 }
 

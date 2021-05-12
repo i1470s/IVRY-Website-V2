@@ -23,7 +23,7 @@ const HomePage = () => {
         
         <div id="Nav-bar" className="nav">
           <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{ fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3.alpha</b>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<a href="/user"><img width="30px" height="30px" alt="search" src={user}/></a>
+                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <b style={{color: "#fff", fontSize: "10px"}}>V.3.alpha</b> <a style={{float: "right", margin: "10px"}} href="/user"><img width="30px" height="30px" alt="search" src={user}/></a>
           </header>
         </div>
         
