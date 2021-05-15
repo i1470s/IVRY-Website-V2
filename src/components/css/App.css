@@ -45,7 +45,7 @@ body {
 .App-body {
   background-color: #000;
   min-height: 100vh;
-  max-width: 900px;
+  max-width: 100vh;
   letter-spacing: 0.1px;
   display: flex;
   flex-direction: column;
