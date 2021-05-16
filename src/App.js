@@ -14,6 +14,7 @@ import HomePage from "./pages/home";
 import LearnPage from "./pages/learn";
 import StorePage from "./pages/store";
 import SearchPage from "./pages/search";
+import Ash from "./pages/ash"
 
 
 
@@ -26,6 +27,7 @@ class App extends Component {
       <Route exact path="/learn" component={LearnPage}/>
       <Route exact path="/store" component={StorePage}/>
       <Route exact path="/search" component={SearchPage}/>
+      <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
       <Redirect to="/404"/>
       </Switch>
