@@ -40,8 +40,6 @@ const HomePage = () => {
                 <small>Were IVRY, a small group of coders offering many different services and programs, varying from simple DLL injection, to GTAV modded accounts, 
                   <br/>if your looking for it theres a good chance we have it!, so make sure to check out our shop, <br/>check out our tutorials page to learn how to code and how to homebrew!</small>
                 <br/>
-                <h3>About us</h3>
-                <br/>
                 <small>We were founded in early 2018 and since then weve been learning and coding many different languages and programs, currently this very site is our biggest project, 
                 <br/>this is the IVRY websites third ideration since 2018 and we expect to keep changing and updating it for years to come, currently were working on our api and creating a back end, while still offering all our services, 
                 so do expect to see many changes, reworkings and redos for the next bit.</small>
