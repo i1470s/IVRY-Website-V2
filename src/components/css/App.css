@@ -140,6 +140,37 @@ a:hover {
   margin-top: 25px;
 }
 
+/*STORE-TAB*/
+
+.store-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.store-list {
+  border-radius: 0px;
+  padding: 1%;
+  width: 29.33%;
+  height: 200px;
+  text-align: center;
+  margin: 1%;
+}
+
+.store-button {
+  color: #fb5804;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;  
+  width: 100px;
+  height: 25px;
+  background: #222;
+  border-radius: 40px;
+  border: none;
+  outline: 0;
+}
+
 /*SEARCH-TAB*/
 
 input, button {

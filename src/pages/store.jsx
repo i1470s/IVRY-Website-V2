@@ -34,7 +34,26 @@ const StorePage = () => {
                       <br/>
                       <br/>
                       <h1 style={{color: "#fb5804"}}>Store</h1>
-                      <small>Welcome</small>
+
+                      <h4 style={{color: "#fb5804"}}>GTAV Recoverys</h4>
+                      
+                      <div class="store-row">
+                      <h4 class="store-list">Mini Recovery <br/><br/><br/> <b>$5</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fa2d9728c" type="submit">Purchase</a></h4>
+                      <h4 class="store-list">Basic Recovery <br/><br/><br/> <b>$10</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fb45a9771" type="submit">Purchase</a></h4>
+                      <h4 class="store-list">Pro Recovery <br/><br/><br/> <b>$15</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fc353553c" type="submit">Purchase</a></h4>
+                      </div>
+                      <br/>
+
+                      <div class="store-row">
+                      <h4 class="store-list">Crazy Recovery <br/><br/><br/> <b>$20</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fc365e6b5" type="submit">Purchase</a></h4>
+                      <h4 class="store-list">Insane Recovery <br/><br/><br/> <b>$25</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fc3a22742" type="submit">Purchase</a></h4>
+                      <h4 class="store-list">Modded Account <br/><br/><br/> <b>$30</b> <br/><br/> <a class="store-button" data-sellix-product="5f63fd02368cc" type="submit">Purchase</a></h4>
+                      </div>
+                      <br/>
+
+                      <h3 style={{color: "#fb5804"}}>Store Policy</h3>
+                      <small>Welcome to our store, all our pices are in CAD(Canadian), we use sellix.ios secure and fast payment gateway for everyone of our products to help stop fraud, with over 30+ purchases in the past 3 months we think weve gained the trust of many and are able to show our selfs as fast, safe and lastly reliable.</small>
+
                 </body>
             </div>
             
