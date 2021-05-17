@@ -45,7 +45,7 @@ body {
 .App-body {
   background-color: #000;
   min-height: 100vh;
-  max-width: 100vh;
+  max-width: 100vw;
   letter-spacing: 0.1px;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@ body {
   position: fixed;
   background-color: #000;
   bottom: 0; 
-  height: 85px;
+  height: 50px;
   width: 100%;
   justify-content: space-evenly;
   border-top: #222 1px solid;
@@ -130,16 +130,14 @@ a:hover {
 /*HOME-TAB*/
 
 .card {
-  width: 40%;
   float: left;
   color: #fff;
-  text-align: center;
-  height: 35px;
-  background-color: #017aff;
-  border: #222 1px solid;
-  border-radius: 100px;
-  margin: 1%;
-  padding: 1%;
+  max-height: 100vh;
+  max-width: 100vw;
+  border-top: #222 3px solid;
+  border-bottom: #222 3px solid;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 /*SEARCH-TAB*/

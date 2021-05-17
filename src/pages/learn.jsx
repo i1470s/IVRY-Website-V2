@@ -33,8 +33,8 @@ const LearnPage = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <h1>Learn</h1>
-                      <b><p>Coming Soon</p></b>
+                      <h1 style={{color: "#fb5804"}}>Tutorials</h1>
+                      <small>Welcome</small>
                 </body>
             </div>
             

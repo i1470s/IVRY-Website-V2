@@ -34,6 +34,7 @@ const PageNotFound = () => {
                       <br/>
                       <br/>
                       <h1>404 Resource Not Found</h1>
+                      <small>*This recource may be present on our server, due to new backend/api changes this may be a false error, please refresh*</small>
                 </body>
             </div>
             

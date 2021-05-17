@@ -28,16 +28,20 @@ const HomePage = () => {
         </div>
         
         
-        
+
         <div id="Content">
           <body className="App-body">
                 <br/>
                 <br/>
                 <br/>
-                <h1>Home</h1>
-                <b><p>Welcome to IVRY</p></b>
-                <b><p>Were a group of Hackers / Coders learning new languages, and algorithms everyday, we offer a wide range of applications, products and services available to you in our shop and services sections. Whilst this is a website for IVRY and all our work, it is also my personal website if you have any questions or need support feel free to contact us at one of our socials linked at the bottem of the page, have a great day, and again welcome. IVRY Est. 1-24-2018</p></b>
-                <a href="/404" className="card">API</a>
+                <h1 style={{color: "#fb5804"}}>IVRY</h1>
+                <h3>Welcome</h3>
+                <br/>
+                <small>Were IVRY, a small group of coders offering many different services and programs, varying from simple DLL injection, to GTAV modded accounts, if your looking for it theres a good chance we have it!, so make sure to check out our shop, and check out our tutorials page to learnh how to code and how to homebrew!</small>
+                <br/>
+                <h3>About us</h3>
+                <br/>
+                <small>We were founded in early 2018 and since then weve been learning and coding many different languages and programs, currently this very site is our new biggest project, this is the IVRY websites third ideration since 2018 and we expect to keep changing and updating it for years to come, currently were working on our api and creating a back end, while still offering all our services, so do expect to see many changes, reworkings and redos for the next bit.</small>
           </body>
         </div>
         
