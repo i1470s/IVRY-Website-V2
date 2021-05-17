@@ -52,7 +52,9 @@ const StorePage = () => {
                       <br/>
 
                       <h3 style={{color: "#fb5804"}}>Store Policy</h3>
-                      <small>Welcome to our store, all our pices are in CAD(Canadian), we use sellix.ios secure and fast payment gateway for everyone of our products to help stop fraud, with over 30+ purchases in the past 3 months we think weve gained the trust of many and are able to show our selfs as fast, safe and lastly reliable.</small>
+                      <small>Welcome to our store, all our pices are in CAD(Canadian), we use sellix.ios secure and fast payment gateway for everyone of our products to help stop fraud, 
+                      <br/>with over 30+ purchases in the past 3 months we think weve gained the trust of many 
+                      <br/>and are able to show our selfs as fast, safe and lastly reliable.</small>
 
                 </body>
             </div>
