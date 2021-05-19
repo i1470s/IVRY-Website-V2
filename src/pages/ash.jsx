@@ -33,7 +33,7 @@ const Ash = () => {
             
             
             <div id="Content">         
-                <body className="App-body" style={{width: "0px"}}>
+                <body className="App-body" style={{width: "0px", height: "0px"}}>
                       <h1>Welcome Ashlee</h1>
                       <b><p>Our Memory Book</p></b>
                       <small>10/10/2020 - ∞</small>
