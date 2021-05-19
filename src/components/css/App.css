@@ -192,3 +192,21 @@ input:not(:placeholder-shown) {
   width: 90%;
   top: 0;
 }
+
+iframe {
+  border: none;
+  width: 100vw;
+}
+
+/*ASHY*/
+
+.ash-card {
+  float: left;
+  color: #fff;
+  max-height: 100vh;
+  max-width: 100vw;
+  border-top: #222 3px solid;
+  border-bottom: #222 3px solid;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
