@@ -33,7 +33,7 @@ const Ash = () => {
             
             
             <div id="Content">         
-                <body className="App-body">
+                <body className="App-body" style={{width: "0px"}}>
                       <h1>Welcome Ashlee</h1>
                       <b><p>Our Memory Book</p></b>
                       <small>10/10/2020 - ∞</small>
@@ -62,7 +62,7 @@ const Ash = () => {
                       
                       <b><p>January - 2021</p></b>
                       <br/>
-                      <small>PUT SHIT HERE</small>
+                      <small>That time we really got close yk</small>
                       <br/>
                       <img src="https://live.staticflickr.com/65535/51186886134_b330622692_k.jpg" class="ash-card"/>
                       <img src="https://live.staticflickr.com/65535/51186323188_e93bf7a3bf_k.jpg" class="ash-card"/>
@@ -73,13 +73,13 @@ const Ash = () => {
                       
                       <b><p>Febuary - 2021</p></b>
                       <br/>
-                      <small>Love Pain, and lots of gain ;)</small>
+                      <small>Love, Pain, and lots of gain heh, its not that funny ;)</small>
                       <br/>
                       <img src="" class="ash-card"/>
                      
                       <b><p>March - 2021</p></b>
                       <br/>
-                      <small>EDIT ME </small>
+                      <small>Sadly one of our slower months</small>
                       <br/>
                       <img src="https://live.staticflickr.com/65535/51186104906_dd5b208a77_k.jpg" class="ash-card"/>
                       <img src="https://live.staticflickr.com/65535/51186886114_f90c076cd7_k.jpg" class="ash-card"/>
@@ -88,7 +88,7 @@ const Ash = () => {
                      
                       <b><p>April - 2021</p></b>
                       <br/>
-                      <small>EDIT ME </small>
+                      <small>We had a lot of fun in this baby :)</small>
                       <br/>
                       <img src="https://live.staticflickr.com/65535/51187175165_c60e4b00ca_k.jpg" class="ash-card"/>
                       <img src="https://live.staticflickr.com/65535/51186886024_882e1d756a_k.jpg" class="ash-card"/>
@@ -102,7 +102,7 @@ const Ash = () => {
                     
                       <b><p>May - 2021</p></b>
                       <br/>
-                      <small>EDIT ME </small>
+                      <small>Coming soon... ish</small>
                       <br/>
                       <img src="" class="ash-card"/>
                 </body>
