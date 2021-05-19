@@ -38,8 +38,6 @@ const SearchPage = () => {
                       </form>
                       <h1>Search</h1>
                       <b><p>Coming Soon</p></b>
-
-                      <iframe width="100%" src="https://f1.wewon.to/a/extra/t2/all-rise/s01e03.mp4?valid=huJULqqPGycZ6HWZU1XF3A&t=1621398070&dz=52536C487A556C497A54314C7A546C4545&cz=71765161495954694F786C68496D2D6764"></iframe>
                 </body>
             </div>
             
