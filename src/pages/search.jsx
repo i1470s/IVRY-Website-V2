@@ -33,11 +33,7 @@ const SearchPage = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <form class="Oflox-Search-box" role="search" method="get"
-                      action="www.yourwebsite.com"><input type="search" id="oflox-block-
-                      search__input-3" class="Oflox-Search-box" name="s" value="" 
-                      placeholder="Search Here..."><button type="submit" class="oflox-
-                      search__button">Search</button></form>
+                      <input id="search" type="search" placeholder="Search..." autofocus required />
                       <h1>Search</h1>
                       <b><p>Coming Soon</p></b>
                 </body>
