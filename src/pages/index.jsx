@@ -23,6 +23,7 @@ const MainPage = () => {
                 <b><h1 style={{color: "#fb5804"}}>IVRY</h1></b>
                 <b><p style={{fontSize: "12px"}}>V.3.alpha</p></b>
                 <b><p style={{fontSize: "12px"}}>Assets Cached Successfully</p></b>
+                <b><p style={{fontSize: "12px"}}>Loaded 100% with 3 warnings and 2 errors</p></b>
                 <b><a className="App-link" href="/home" rel="noopener noreferrer">Continue To App</a></b> 
           </body>
         </div>
