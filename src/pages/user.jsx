@@ -24,7 +24,7 @@ const UserPage = () => {
         
         <div id="Nav-bar" className="nav">
           <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <a style={{float: "right", margin: "10px"}} href="/home/user/dm"><img width="30px" height="30px" alt="dm" src={dm}/></a> 
+                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <a style={{float: "right", margin: "10px"}} href="/home/user/dm"><img width="30px" height="30px" alt="dm" src={dm}/></a> <a style={{float: "right", margin: "10px", opacity: ".5"}} href="/home/user"><img width="30px" height="30px" alt="user" src={user}/></a>  
           </header>
         </div>
         
