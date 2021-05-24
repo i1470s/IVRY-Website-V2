@@ -33,6 +33,7 @@ const PageNotFound = () => {
                       <br/>
                       <br/>
                       <br/>
+                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>404</h1>
                       <h1>404 Resource Not Found</h1>
                       <small>*This recource may be present on our server, due to new backend/api changes this may be a false error, please refresh*</small>
                 </body>
