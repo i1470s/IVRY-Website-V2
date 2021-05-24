@@ -35,7 +35,7 @@ const HomePage = () => {
                 <br/>
                 <br/>
                 <br/>
-                <h1 style={{color: "#fb5804", position: "fixed", left: "15px", top: "25px"}}>Home</h1>
+                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Home</h1>
                 <h3>Welcome</h3>
                 <br/>
                 <small>Were IVRY, a small group of coders offering many different services and programs, varying from simple DLL injection, to GTAV modded accounts, 
