@@ -35,6 +35,7 @@ const UserPage = () => {
                 <br/>
                 <br/>
                 <br/>
+                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h1>Users Coming Soon</h1>
           </body>
         </div>
