@@ -37,7 +37,7 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h1>Users Coming Soon</h1>
-                <a href="#" class="App-link" data-netlify-identity-button></a>
+                <b><a href="#" class="App-link" data-netlify-identity-button></a></b>
           </body>
         </div>
         
