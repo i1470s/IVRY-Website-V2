@@ -33,7 +33,7 @@ const LearnPage = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <h1 style={{color: "#fb5804"}}>Tutorials</h1>
+                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Tutorials</h1>
                       <small>Welcome</small>
                 </body>
             </div>

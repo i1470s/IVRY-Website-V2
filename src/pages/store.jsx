@@ -33,7 +33,7 @@ const StorePage = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <h1 style={{color: "#fb5804"}}>Store</h1>
+                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Store</h1>
 
                       <h4 style={{color: "#fb5804"}}>GTAV Recoverys</h4>
                       
