@@ -188,14 +188,9 @@ input[type="search"] {
 }
 
 input:not(:placeholder-shown) {
-  border-radius: 25px;
+  border-radius: 5px;
   width: 90%;
   top: 0;
-}
-
-iframe {
-  border: none;
-  width: 100vw;
 }
 
 /*ASHY*/
