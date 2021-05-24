@@ -174,7 +174,7 @@ input, button {
 
 input[type="search"] {
   outline: 1px; 
-  width: 75%;
+  width: 90%;
   background: #222;
   padding: 0 1.6rem;
   border-radius: 5px;
@@ -184,12 +184,6 @@ input[type="search"] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 0;
-}
-
-input:not(:placeholder-shown) {
-  border-radius: 5px;
-  width: 90%;
   top: 0;
 }
 
