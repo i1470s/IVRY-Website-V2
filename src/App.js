@@ -1,14 +1,25 @@
+/*IMPORTS*/
 import React, { Component } from 'react';
 import GoTrue from 'gotrue-js';
-
 import './components/css/App.css';
 
-auth = new GoTrue({
+/*CONFIG*/
+document.body.style.overflow = "hidden"
+
+/*AUTH*/
+
+const auth = new GoTrue({
   APIUrl: 'https://ivry.tk/.netlify/identity',
   audience: '',
   setCookie: true,
 });
 
+
+
+
+
+
+/*APP START*/
 import {
   BrowserRouter as Router,
   Route,
@@ -25,8 +36,6 @@ import LearnPage from "./pages/learn";
 import StorePage from "./pages/store";
 import SearchPage from "./pages/search";
 import Ash from "./pages/ash"
-
-
 
 class App extends Component {
   render() {
