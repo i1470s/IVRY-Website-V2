@@ -15,8 +15,6 @@ import '../components/css/App.css';
 
 
 /*REACT START*/
-
-
 const UserPage = () => {
     return (
       <div id="Page" className="App">
