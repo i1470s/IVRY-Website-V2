@@ -1,5 +1,6 @@
 /*Imports*/
 import React from "react";
+import { IdentityContextProvider } from 'react-netlify-identity';
 
 /*Image Imports*/
 import home from '../components/images/home.svg';
