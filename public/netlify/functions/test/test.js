@@ -6,4 +6,4 @@ auth = new GoTrue({
   setCookie: true,
 });
 
-auth.signup(email, password);
+const user = auth.currentUser();
