@@ -9,6 +9,11 @@ auth = new GoTrue({
   setCookie: true,
 });
 
+auth
+  .signup(email, password)
+  .then((response) => console.log('Confirmation email sent', response))
+  .catch((error) => console.log("It's an error", error));
+
 import {
   BrowserRouter as Router,
   Route,
