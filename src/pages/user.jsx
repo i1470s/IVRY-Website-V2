@@ -34,7 +34,7 @@ const UserPage = () => {
                 <br/>
                 <br/>
                 <br/>
-                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
+                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}} data-netlify-identity-user_metadata-full_name>User</h1>
                 <h1>Users Coming Soon</h1>
                 <a href="#" style={{color: "#fb5804"}} class="App-link" data-netlify-identity-button></a>
           </body>
