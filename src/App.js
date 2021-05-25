@@ -9,12 +9,6 @@ auth = new GoTrue({
   setCookie: true,
 });
 
-auth.signup(email, password)
-  .then(response => console.log("Success!Check your inbox! ", response))
-  .catch(error => console.log("It 's an error", error));
-
-const user_id = auth.currentUser();
-
 import {
   BrowserRouter as Router,
   Route,
