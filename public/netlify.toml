@@ -1,8 +1,0 @@
-[functions]
-  # Sets a custom directory for Netlify Functions
-  directory = "myfunctions/"
-
-[[redirects]]
-    from = "/*"
-    to = "/index.html"   
-    status = 200
