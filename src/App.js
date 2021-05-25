@@ -1,23 +1,9 @@
 /*IMPORTS*/
 import React, { Component } from 'react';
-import GoTrue from 'gotrue-js';
 import './components/css/App.css';
 
 /*CONFIG*/
 document.body.style.overflow = "hidden"
-
-/*AUTH*/
-
-const auth = new GoTrue({
-  APIUrl: 'https://ivry.tk/.netlify/identity',
-  audience: '',
-  setCookie: true,
-});
-
-
-
-
-
 
 /*APP START*/
 import {
