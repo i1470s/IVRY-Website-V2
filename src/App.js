@@ -2,15 +2,12 @@
 import React, { Component } from 'react';
 import './components/css/App.css';
 
-/*CONFIG*/
-document.body.style.overflow = "hidden"
-
 /*APP START*/
 import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect,
+  Redirect
 } from "react-router-dom";
 
 import MainPage from "./pages";
