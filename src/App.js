@@ -35,7 +35,8 @@ class App extends Component {
       <Route exact path="/search" component={SearchPage}/>
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
-
+      
+      <Redirect to="/404"/>
       </Switch>
     </Router>
   }
