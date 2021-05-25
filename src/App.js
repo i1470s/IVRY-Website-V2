@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import './components/css/App.css';
 
+import GoTrue from 'gotrue-js';
+
+auth = new GoTrue({
+  APIUrl: 'https://ivry.tk/.netlify/identity',
+  audience: '',
+  setCookie: true,
+});
+
 import {
   BrowserRouter as Router,
   Route,
