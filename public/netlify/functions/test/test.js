@@ -1,6 +1,9 @@
-exports.handler = function (event, context, callback) {
-  callback(null, {
-    statusCode: 200,
-    body: "Hello, World",
-  });
-};
+import GoTrue from 'gotrue-js';
+
+auth = new GoTrue({
+  APIUrl: 'https://ivry.tk/.netlify/identity',
+  audience: '',
+  setCookie: true,
+});
+
+auth.signup(email, password);
