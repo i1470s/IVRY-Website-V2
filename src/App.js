@@ -19,6 +19,7 @@ import LearnPage from "./pages/learn";
 import StorePage from "./pages/store";
 import SearchPage from "./pages/search";
 import Ash from "./pages/ash"
+import test from "../.netlify/functions/test"
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
       <Route exact path="/search" component={SearchPage}/>
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
+      <Route path="/.netlify/functions/test.js" component={test}/>
       <Redirect to="/404"/>
       </Switch>
     </Router>
