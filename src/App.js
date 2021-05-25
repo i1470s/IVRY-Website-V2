@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './components/css/App.css';
-
 import GoTrue from 'gotrue-js';
+
+import './components/css/App.css';
 
 auth = new GoTrue({
   APIUrl: 'https://ivry.tk/.netlify/identity',
@@ -9,10 +9,11 @@ auth = new GoTrue({
   setCookie: true,
 });
 
-auth
-  .signup(email, password)
-  .then((response) => console.log('Confirmation email sent', response))
-  .catch((error) => console.log("It's an error", error));
+auth.signup(email, password)
+  .then(response => console.log("Success!Check your inbox! ", response))
+  .catch(error => console.log("It 's an error", error));
+
+const user_id = auth.currentUser();
 
 import {
   BrowserRouter as Router,
