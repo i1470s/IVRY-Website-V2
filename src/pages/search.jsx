@@ -33,7 +33,9 @@ const SearchPage = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <form style={{position: "fixed", top: "80px"}} id="search" type="search" placeholder="Search..." autofocus required></form>
+                      <form id="form" role="search">
+                      <input style={{position: "fixed", top: "80px"}} type="search" id="query" name="q" placeholder="Search..." autofocus required />
+                      </form>
                       <b><p>Coming Soon</p></b>
                 </body>
             </div>
