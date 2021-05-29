@@ -22,19 +22,10 @@
   </head>
   <body>
     <script>
-      const f = document.getElementById('form');
-      const q = document.getElementById('query');
-      const google = 'https://www.google.com/search?q=site%3A+';
-      const site = 'ivry.tk';
-
-      function submitted(event) {
-        event.preventDefault();
-        const url = google + site + '+' + q.value;
-        const win = window.open(url, '_blank');
-        win.focus();
-      }
-
-      f.addEventListener('submit', submitted);
+    document.getElementById('form').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:yoursitename.com ' + document.getElementById('query').value;
+        return false;
+    }
     </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
