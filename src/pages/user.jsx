@@ -35,7 +35,7 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
-                <form name="Sign up" method="post" data-netlify="true">
+                <form name="Signup" method="POST" data-netlify="true">
                 <p>
                   <label>Username: <input style={{color: "black", borderRadius: "5px"}} type="text" name="name" /></label>   
                 </p>
