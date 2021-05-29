@@ -35,11 +35,15 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
-                <Card>
+                <card>
+                {success && (
+                <p style={{ color: "green" }}>Thanks</p>
+                )}
                 <form 
                   name="contact" 
                   method="POST" 
                   data-netlify="true" 
+                  action="/success=true"
                   >
                 <input type="hidden" name="form-name" value="contact" />
                     <TextField id="standard-basic" label="name" name="name" />
@@ -47,7 +51,7 @@ const UserPage = () => {
                     <TextField multiline id="standard-basic" label="message" name="message" />
                     <Button type="submit">Send</Button>
                   </form>
-                </Card>
+                </card>
           </body>
         </div>
         
