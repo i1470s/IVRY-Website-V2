@@ -5,8 +5,8 @@ export default function Form() {
     <form name="contact" method="post">
       <input type="hidden" name="form-name" value="contact" />
       <p>
-        <label htmlFor="name">UserName</label> <br />
-        <input type="text" id="name" name="name" required />
+        <label htmlFor="name">Username</label> <br />
+        <textarea type="text" id="name" name="name" required></textarea>
       </p>
       <p>
         <label htmlFor="email">Email</label> <br />
@@ -17,7 +17,7 @@ export default function Form() {
         <input id="password" name="password" required></input>
       </p>
       <p>
-        <input type="submit" value="Submit password" />
+        <input type="submit" value="Submit name" />
       </p>
     </form>
   );
