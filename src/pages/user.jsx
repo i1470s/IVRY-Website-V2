@@ -35,8 +35,22 @@ const UserPage = () => {
                 <br/>
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}} data-netlify-identity-user_metadata-full_name>User</h1>
-                <h1>Users Coming Soon</h1>
-                <a href="#" style={{color: "#fb5804"}} class="App-link" data-netlify-identity-button></a>
+                <h3>Sign Up</h3>
+                <form name="Sign up" method="post" data-netlify="true">
+                <p>
+                  <label>Username: <input style={{color: "black", borderRadius: "5px"}} type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Email: <input style={{color: "black", borderRadius: "5px"}} type="email" name="email" /></label>   
+                </p>
+                <p>
+                  <label>Password: <input style={{color: "black", borderRadius: "5px"}} type="password" name="password" /></label>
+                </p>
+                <p>
+                  <button class="App-link" type="submit">Sign up</button><br/>
+                  <small style={{fontSize: "15px"}}>Already Have an account? <a style={{color: "#fb5804"}}>Login</a></small>
+                </p>
+              </form>
           </body>
         </div>
         

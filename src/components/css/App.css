@@ -93,6 +93,11 @@ a:hover {
   opacity: .5;
 }
 
+button:hover{
+  text-decoration: none;
+  opacity: .5;
+}
+
 /*MEDIA / IMAGES*/
 
 .App-logo {
