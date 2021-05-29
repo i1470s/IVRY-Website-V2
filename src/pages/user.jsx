@@ -35,15 +35,21 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
-                <form name="Signup" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                 <p>
-                  <label>Username: <input style={{color: "black", borderRadius: "5px"}} type="text" name="name" /></label>   
+                  <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
                 <p>
-                  <label>Email: <input style={{color: "black", borderRadius: "5px"}} type="email" name="email" /></label>   
+                  <label>Your Email: <input type="email" name="email" /></label>
                 </p>
                 <p>
-                  <label>Password: <input style={{color: "black", borderRadius: "5px"}} type="password" name="password" /></label>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
                 </p>
                 <p>
                   <button type="submit">Send</button>
