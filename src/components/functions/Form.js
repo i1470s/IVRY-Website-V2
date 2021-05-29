@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form() {
   return (
-    <form name="contact" method="post">
+    <form name="contact" method="post" action="/home/user">
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Username</label> <br />
@@ -17,7 +17,7 @@ export default function Form() {
         <input id="password" name="password" required></input>
       </p>
       <p>
-        <input type="submit" value="Submit name" />
+        <input id="login-form-submit" type="submit" value="Submit name" />
       </p>
     </form>
   );

@@ -35,7 +35,7 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
-                <Form />
+                <Form id="login-form"/>
           </body>
         </div>
         
