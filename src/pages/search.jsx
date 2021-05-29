@@ -34,7 +34,6 @@ const SearchPage = () => {
                       <br/>
                       <br/>
                       <input style={{position: "fixed", top: "95px"}} id="search" type="search" placeholder="Search..." autofocus required />
-                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Search</h1>
                       <b><p>Coming Soon</p></b>
                 </body>
             </div>
