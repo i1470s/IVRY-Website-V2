@@ -1,6 +1,5 @@
 /*Imports*/
 import React from "react";
-/*import { IdentityContextProvider } from 'react-netlify-identity';*/
 
 /*Image Imports*/
 import home from '../components/images/home.svg';
@@ -34,7 +33,7 @@ const UserPage = () => {
                 <br/>
                 <br/>
                 <br/>
-                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}} data-netlify-identity-user_metadata-full_name>User</h1>
+                <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
                 <form name="Sign up" method="post" data-netlify="true">
                 <p>
@@ -47,8 +46,7 @@ const UserPage = () => {
                   <label>Password: <input style={{color: "black", borderRadius: "5px"}} type="password" name="password" /></label>
                 </p>
                 <p>
-                  <button class="App-link" type="submit">Sign up</button><br/>
-                  <small style={{fontSize: "15px"}}>Already Have an account? <a style={{color: "#fb5804"}}>Login</a></small>
+                  <button type="submit">Send</button>
                 </p>
               </form>
           </body>
