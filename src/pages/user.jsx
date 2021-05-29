@@ -11,7 +11,7 @@ import dm from '../components/images/dm.svg'
 
 /*CSS Imports*/
 import '../components/css/App.css';
-
+import Form from "../components/functions/Form";
 
 /*REACT START*/
 const UserPage = () => {
@@ -35,26 +35,9 @@ const UserPage = () => {
                 <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>User</h1>
                 <h3>Sign Up</h3>
-                <card>
-                {success && (
-                <p style={{ color: "green" }}>Thanks</p>
-                )}
-                <form 
-                  name="contact" 
-                  method="POST" 
-                  data-netlify="true" 
-                  action="/success=true"
-                  >
-                <input type="hidden" name="form-name" value="contact" />
-                    <TextField id="standard-basic" label="name" name="name" />
-                    <TextField id="standard-basic" label="email" name="email" />
-                    <TextField multiline id="standard-basic" label="message" name="message" />
-                    <Button type="submit">Send</Button>
-                  </form>
-                </card>
+                <Form />
           </body>
         </div>
-        
         
         
         <div id="Footer">
