@@ -103,6 +103,7 @@ const Register = () => {
     
       <body className="App-body">
       <br/>
+      <br/>
       <h3 style={{color: "white", }}>Welcome To IVRY</h3>
       <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
           
@@ -120,7 +121,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "black"}} htmlFor="username">Username</label>
                   <Input
-                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="text"
                     name="username"
                     value={username}
@@ -133,7 +134,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "black"}} htmlFor="email">Email</label>
                   <Input
-                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="text"
                     name="email"
                     value={email}
@@ -146,7 +147,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "black"}} htmlFor="password">Password</label>
                   <Input 
-                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="password"
                     name="password"
                     value={password}
