@@ -133,9 +133,16 @@ const Login = (props) => {
         </Form>
       </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
     </body>
   </div>
   );

@@ -170,9 +170,16 @@ const Register = () => {
         </Form>
       </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
+    <p>⠀</p>
     </body>
   </div>
   );
