@@ -94,92 +94,85 @@ const Register = () => {
   };
 
   return (
-    <div id="Nav-bar" className="nav">
-    <header className="App-header">
-            <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a>
-    </header>   
-    <br/>
-    <br/>
-    <br/>
-    <body className="App-body">
-    <h3 style={{color: "white", }}>Welcome To IVRY</h3>
-    <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
-    <div className="col-md-12">
-      <div className="card card-container">
-        <img
-          src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
-          alt="profile-img"
-          className="profile-img-card"
-        />
-
-        <Form onSubmit={handleRegister} ref={form}>
-          {!successful && (
-            <div>
-              <div className="form-group">
-                <label style={{color: "black"}} htmlFor="username">Username</label>
-                <Input
-                  type="text"
-                  className="form-control"
-                  name="username"
-                  value={username}
-                  onChange={onChangeUsername}
-                  validations={[required, vusername]}
-                />
-              </div>
-
-              <div className="form-group">
-                <label style={{color: "black"}} htmlFor="email">Email</label>
-                <Input
-                  type="text"
-                  className="form-control"
-                  name="email"
-                  value={email}
-                  onChange={onChangeEmail}
-                  validations={[required, validEmail]}
-                />
-              </div>
-
-              <div className="form-group">
-                <label style={{color: "black"}} htmlFor="password">Password</label>
-                <Input
-                  type="password"
-                  className="form-control"
-                  name="password"
-                  value={password}
-                  onChange={onChangePassword}
-                  validations={[required, vpassword]}
-                />
-              </div>
-
-              <div className="form-group">
-                <button style={{color: "black"}} className="btn btn-primary btn-block">Sign Up</button>
-              </div>
-            </div>
-          )}
-
-          {message && (
-            <div className="form-group">
-              <div style={{color: "black"}} className={ successful ? "alert alert-success" : "alert alert-danger" } role="alert">
-                {message}
-              </div>
-            </div>
-          )}
-          <CheckButton style={{ display: "none" }} ref={checkBtn} />
-          <br/>
-          <small style={{color: "black"}}>Already have an account?</small> <a href="/profile/login">Login</a>
-        </Form>
+    <div>
+      <div id="Nav-bar" className="nav">
+        <header className="App-header">
+                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a>
+        </header>  
       </div>
-    </div>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
-    <p>⠀</p>
+    
+      <body className="App-body">
+      <br/>
+      <h3 style={{color: "white", }}>Welcome To IVRY</h3>
+      <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
+      <div className="col-md-12">
+        <div className="card card-container">
+          <img
+            src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
+            alt="profile-img"
+            className="profile-img-card"
+          />
+
+          <Form onSubmit={handleRegister} ref={form}>
+            {!successful && (
+              <div>
+                <div className="form-group">
+                  <label style={{color: "black"}} htmlFor="username">Username</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="username"
+                    value={username}
+                    onChange={onChangeUsername}
+                    validations={[required, vusername]}
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label style={{color: "black"}} htmlFor="email">Email</label>
+                  <Input
+                    type="text"
+                    className="form-control"
+                    name="email"
+                    value={email}
+                    onChange={onChangeEmail}
+                    validations={[required, validEmail]}
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label style={{color: "black"}} htmlFor="password">Password</label>
+                  <Input
+                    type="password"
+                    className="form-control"
+                    name="password"
+                    value={password}
+                    onChange={onChangePassword}
+                    validations={[required, vpassword]}
+                  />
+                </div>
+
+                <div className="form-group">
+                  <button style={{color: "black"}} className="btn btn-primary btn-block">Sign Up</button>
+                </div>
+              </div>
+            )}
+
+            {message && (
+              <div className="form-group">
+                <div style={{color: "black"}} className={ successful ? "alert alert-success" : "alert alert-danger" } role="alert">
+                  {message}
+                </div>
+              </div>
+            )}
+            <CheckButton style={{ display: "none" }} ref={checkBtn} />
+            <br/>
+            <small style={{color: "black"}}>Already have an account?</small> <a href="/profile/login">Login</a>
+        </Form>
+        </div>
+      </div>
+      <small>by creating an account with us you are agreeing to our <a href="/">Terms of service</a></small>
+      <br/>
     </body>
   </div>
   );
