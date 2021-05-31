@@ -16,18 +16,17 @@ self.addEventListener('install', function(event) {
         'index.html',
         'robots.txt',
         'favicon.ico',
-        'icon192.svg',
-        'icon512.svg',
+        'logo192.svg',
+        'logo512.svg',
         'manifest.json',
         'serviceworker-cache-pollyfill.js',
         'custom-service-worker.js',
-        'static/media/learn.e9763d0f.svg',
-        'static/media/home.04b971e3.svg',
-        'static/media/search.c2695fe2.svg',
-        'static/media/store.959bd9ff.svg',
-        'static/media/icon.a7d57ca9.svg',
-        'static/media/user.b64c904c.svg',
-        'static/media/dm.7d915b9e.svg'
+        '/static/media/user.16e7e939.svg',
+        '/static/media/dm.2fb416eb.svg',
+        '/static/media/home.b421c8ff.svg',
+        '/static/media/learn.dc189a0a.svg',
+        '/static/media/store.da682a9f.svg',
+        '/static/media/search.b0434d0f.svg'
       ]);
     })
   );
