@@ -112,7 +112,7 @@ const Register = () => {
           className="profile-img-card"
         />
 
-        <Form onSubmit={handleRegister} ref={form}>
+        <Form style={{width: "80%"}} onSubmit={handleRegister} ref={form}>
           {!successful && (
             <div>
               <div className="form-group">
