@@ -86,9 +86,6 @@ html {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: px 2px 2px rgba(0, 0, 0, 0.3);
   }
   
   .profile-img-card {
