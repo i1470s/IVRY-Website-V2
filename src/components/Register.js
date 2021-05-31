@@ -170,10 +170,10 @@ const Register = () => {
         </Form>
       </div>
     </div>
+    <br/>
+    <br/>
+    <br/>
     </body>
-    <br/>
-    <br/>
-    <br/>
   </div>
   );
 };
