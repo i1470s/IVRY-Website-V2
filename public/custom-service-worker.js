@@ -1,6 +1,6 @@
 // Here comes the install event!
 // This only happens once, when the browser sees this
-importScripts('./serviceworker-cache-polyfill.js');
+// importScripts('./serviceworker-cache-polyfill.js');
 
 // version of the ServiceWorker for the first time.
 self.addEventListener('install', function(event) {
