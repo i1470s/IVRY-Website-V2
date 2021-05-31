@@ -1,45 +1,76 @@
-/*IMPORTS*/
-import React, { Component } from 'react';
-import './components/css/App.css';
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
-/*APP START*/
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
-} from "react-router-dom";
+import "./components/css/Main.css";
+import "./App.css";
 
-import MainPage from "./pages";
-import PageNotFound from "./pages/404";
-import HomePage from "./pages/home";
-import UserPage from "./pages/user"
-import DMPage from "./pages/dm"
-import LearnPage from "./pages/learn";
-import StorePage from "./pages/store";
-import SearchPage from "./pages/search";
-import Ash from "./pages/ash"
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Home from "./components/Home";
+import Learn from "./components/Learn";
+import Store from "./components/Store";
+import Chats from "./components/Chats";
+import Search from "./components/Search";
+import Ash from "./components/BoardAdmin";
+import Profile from "./components/Profile";
+import BoardModerator from "./components/BoardModerator";
+import BoardAdmin from "./components/BoardAdmin";
+import PageNotFound from "./components/404"
 
-class App extends Component {
-  render() {
-    return <Router>
+import { logout } from "./actions/auth";
+import { clearMessage } from "./actions/message";
+
+import { history } from "./helpers/history";
+
+const App = () => {
+  const [showModeratorBoard, setShowModeratorBoard] = useState(false);
+  const [showAdminBoard, setShowAdminBoard] = useState(false);
+
+  const { user: currentUser } = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    history.listen((location) => {
+      dispatch(clearMessage()); 
+    });
+  }, [dispatch]);
+
+  useEffect(() => {
+    if (currentUser) {
+      setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
+      setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
+    }
+  }, [currentUser]);
+
+  const logOut = () => {
+    dispatch(logout());
+  };
+
+  return (
+      <Router history={history}>
       <Switch>
-      <Route exact path="/" component={MainPage}/>
+      <Route exact path="/" component={Login}/>
+      <Route exact path="/home" component={Home}/>
+      <Route exact path="/profile" component={Profile}/>
+      <Route exact path="/profile/chats" component={Chats}/>
+      <Route exact path="/profile/login" component={Login}/>
+      <Route exact path="/profile/mod" component={BoardModerator}/>
+      <Route exact path="/profile/admin" component={BoardAdmin}/>
+      <Route exact path="/profile/signup" component={Register}/>
+
       
-      <Route exact path="/home" component={HomePage}/>
-      <Route exact path="/home/user" component={UserPage}/>
-      <Route exact path="/home/user/dm" component={DMPage}/>
-      
-      <Route exact path="/learn" component={LearnPage}/>
-      <Route exact path="/store" component={StorePage}/>
-      <Route exact path="/search" component={SearchPage}/>
+      <Route exact path="/learn" component={Learn}/>
+      <Route exact path="/store" component={Store}/>
+      <Route exact path="/search" component={Search}/>
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
+      
       
       <Redirect to="/404"/>
       </Switch>
     </Router>
-  }
-}
+  );
+};
 
 export default App;
