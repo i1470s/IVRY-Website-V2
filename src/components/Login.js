@@ -11,7 +11,7 @@ import { login } from "../actions/auth";
 const required = (value) => {
   if (!value) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div style={{color: "black"}} role="alert">
         This field is required!
       </div>
     );
@@ -82,48 +82,51 @@ const Login = (props) => {
       <div className="col-md-12">
       <div className="card card-container">
         <img
-          src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
+          src="https://ivry.tk/favicon.ico"
           alt="profile-img"
           className="profile-img-card"
         />
 
         <Form onSubmit={handleLogin} ref={form}>
-          <div className="form-group">
+          <div>
             <label style={{color: "black"}} htmlFor="username">Username</label>
             <Input
+              style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
               type="text"
-              className="form-control"
               name="username"
               value={username}
               onChange={onChangeUsername}
               validations={[required]}
+              placeholder="Username"
             />
           </div>
 
-          <div className="form-group">
+          <div>
             <label style={{color: "black"}} htmlFor="password">Password</label>
             <Input
+              style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
               type="password"
-              className="form-control"
               name="password"
               value={password}
               onChange={onChangePassword}
               validations={[required]}
+              placeholder="Password"
             />
           </div>
 
-          <div className="form-group">
-            <button className="btn btn-primary btn-block" disabled={loading}>
+          <div>
+          <br/>
+            <button style={{color: "black", background: "white", border: "2px #000 solid", borderRadius: "5px"}} disabled={loading}>
               {loading && (
-                <span className="spinner-border spinner-border-sm"></span>
+                <span style={{color: "black", background: "white"}}></span>
               )}
-              <span style={{color: "black"}}>Login</span>
+              <span style={{color: "black", background: "white"}}>Login</span>
             </button>
           </div>
 
           {message && (
-            <div className="form-group">
-              <div style={{color: "black"}} className="alert alert-danger" role="alert">
+            <div>
+              <div style={{color: "black"}} role="alert">
                 {message}
               </div>
             </div>

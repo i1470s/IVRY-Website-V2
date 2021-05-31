@@ -11,7 +11,7 @@ import { register } from "../actions/auth";
 const required = (value) => {
   if (!value) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div style={{color: "black"}} role="alert">
         This field is required!
       </div>
     );
@@ -21,7 +21,7 @@ const required = (value) => {
 const validEmail = (value) => {
   if (!isEmail(value)) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div style={{color: "black"}} role="alert">
         This is not a valid email.
       </div>
     );
@@ -31,7 +31,7 @@ const validEmail = (value) => {
 const vusername = (value) => {
   if (value.length < 3 || value.length > 20) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div style={{color: "black"}} role="alert">
         The username must be between 3 and 20 characters.
       </div>
     );
@@ -41,7 +41,7 @@ const vusername = (value) => {
 const vpassword = (value) => {
   if (value.length < 6 || value.length > 40) {
     return (
-      <div className="alert alert-danger" role="alert">
+      <div style={{color: "black"}} role="alert">
         The password must be between 6 and 40 characters.
       </div>
     );
@@ -105,10 +105,11 @@ const Register = () => {
       <br/>
       <h3 style={{color: "white", }}>Welcome To IVRY</h3>
       <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
-      <div className="col-md-12">
-        <div className="card card-container">
+          
+          <div className="col-md-12">
+          <div className="card card-container">
           <img
-            src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
+            src="https://ivry.tk/favicon.ico"
             alt="profile-img"
             className="profile-img-card"
           />
@@ -116,51 +117,56 @@ const Register = () => {
           <Form onSubmit={handleRegister} ref={form}>
             {!successful && (
               <div>
-                <div className="form-group">
+                <div>
                   <label style={{color: "black"}} htmlFor="username">Username</label>
                   <Input
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
                     type="text"
-                    className="form-control"
                     name="username"
                     value={username}
                     onChange={onChangeUsername}
                     validations={[required, vusername]}
+                    placeholder="Username"
                   />
                 </div>
 
-                <div className="form-group">
+                <div>
                   <label style={{color: "black"}} htmlFor="email">Email</label>
                   <Input
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
                     type="text"
-                    className="form-control"
                     name="email"
                     value={email}
                     onChange={onChangeEmail}
                     validations={[required, validEmail]}
+                    placeholder="Email"
                   />
                 </div>
 
-                <div className="form-group">
+                <div>
                   <label style={{color: "black"}} htmlFor="password">Password</label>
-                  <Input
+                  <Input 
+                    style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px"}}
                     type="password"
-                    className="form-control"
                     name="password"
                     value={password}
                     onChange={onChangePassword}
                     validations={[required, vpassword]}
+                    placeholder="Password"
                   />
                 </div>
 
-                <div className="form-group">
-                  <button style={{color: "black"}} className="btn btn-primary btn-block">Sign Up</button>
+                <div>
+                  <br/>
+                  <button style={{color: "black", background: "white", border: "2px #000 solid", borderRadius: "5px"}}>Sign Up</button><br/>
+                  <small style={{color: "black", fontSize: "20px"}}>By creating an account with us, you are agreeing to our <a href="#">Terms of service</a></small>
                 </div>
               </div>
             )}
 
             {message && (
-              <div className="form-group">
-                <div style={{color: "black"}} className={ successful ? "alert alert-success" : "alert alert-danger" } role="alert">
+              <div>
+                <div style={{color: "black"}} role="alert">
                   {message}
                 </div>
               </div>
@@ -171,7 +177,6 @@ const Register = () => {
         </Form>
         </div>
       </div>
-      <small>by creating an account with us you are agreeing to our <a href="/">Terms of service</a></small>
       <br/>
     </body>
   </div>
