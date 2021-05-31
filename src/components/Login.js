@@ -86,7 +86,7 @@ const Login = (props) => {
           className="profile-img-card"
         />
 
-        <Form style={{width: "80%"}} onSubmit={handleLogin} ref={form}>
+        <Form onSubmit={handleLogin} ref={form}>
           <div className="form-group">
             <label style={{color: "black"}} htmlFor="username">Username</label>
             <Input
