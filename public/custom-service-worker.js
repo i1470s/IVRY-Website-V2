@@ -1,7 +1,3 @@
-if( 'function' === typeof importScripts) {
-  importScripts('./serviceworker-cache-polyfill.js');
-} 
-
 // Here comes the install event!
 // This only happens once, when the browser sees this
 // version of the ServiceWorker for the first time.
