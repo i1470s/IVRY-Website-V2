@@ -98,7 +98,7 @@ const Register = () => {
       <body className="App-body">
       <br/>
       <br/>
-      <h3 style={{color: "#fb5804", }}>IVRY</h3>
+      <h1 style={{color: "#fb5804", }}>IVRY</h1>
       <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
           
           <div className="col-md-12">
