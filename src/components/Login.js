@@ -89,7 +89,7 @@ const Login = (props) => {
 
         <Form style={{width: "300px"}} onSubmit={handleLogin} ref={form}>
           <div>
-            <label style={{color: "black"}} htmlFor="username">Username</label>
+            <label style={{color: "white"}} htmlFor="username">Username</label>
             <Input
               style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
               type="text"
@@ -102,7 +102,7 @@ const Login = (props) => {
           </div>
 
           <div>
-            <label style={{color: "black"}} htmlFor="password">Password</label>
+            <label style={{color: "white"}} htmlFor="password">Password</label>
             <Input
               style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
               type="password"
@@ -116,24 +116,24 @@ const Login = (props) => {
 
           <div>
           <br/>
-            <button style={{color: "black", background: "white", border: "2px #000 solid", borderRadius: "5px"}} disabled={loading}>
+            <button style={{color: "white", background: "#222", border: "2px #000 solid", borderRadius: "5px"}} disabled={loading}>
               {loading && (
-                <span style={{color: "black", background: "white"}}></span>
+                <span style={{color: "white", background: "#222"}}></span>
               )}
-              <span style={{color: "black", background: "white"}}>Login</span>
+              <span style={{color: "white", background: "#222"}}>Login</span>
             </button>
           </div>
 
           {message && (
             <div>
-              <div style={{color: "black"}} role="alert">
+              <div style={{color: "white"}} role="alert">
                 {message}
               </div>
             </div>
           )}
           <CheckButton style={{ display: "none" }} ref={checkBtn} />
           <br/>
-          <small style={{color: "black"}}>Dont have an account?</small> <a href="/profile/signup">Signup</a>
+          <small style={{color: "white"}}>Dont have an account?</small> <a href="/profile/signup">Signup</a>
         </Form>
         </div>
       </div>
