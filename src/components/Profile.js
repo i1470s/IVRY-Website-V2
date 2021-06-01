@@ -69,7 +69,7 @@ const Profile = () => {
         {currentUser.roles &&
           currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
       </ul>
-      <a style={{border: "2px #000 solid", borderRadius: "5px"}} href="/" onClick={logOut}>Log Out</a>
+      <a style={{border: "2px #fff solid", borderRadius: "5px"}} href="/" onClick={logOut}>Log Out</a>
       
       <div id="Footer">
         <footer className="App-footer">
