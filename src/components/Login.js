@@ -116,7 +116,7 @@ const Login = (props) => {
 
           <div>
           <br/>
-            <button style={{color: "white", background: "#222", border: "2px #000 solid", borderRadius: "5px"}} disabled={loading}>
+            <button style={{color: "white", background: "#222", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
               {loading && (
                 <span style={{color: "white", background: "#222"}}></span>
               )}
