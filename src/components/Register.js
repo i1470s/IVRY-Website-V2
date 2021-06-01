@@ -119,7 +119,7 @@ const Register = () => {
             {!successful && (
               <div>
                 <div>
-                  <label style={{color: "black"}} htmlFor="username">Username</label>
+                  <label style={{color: "white"}} htmlFor="username">Username</label>
                   <Input
                     style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="text"
@@ -132,7 +132,7 @@ const Register = () => {
                 </div>
 
                 <div>
-                  <label style={{color: "black"}} htmlFor="email">Email</label>
+                  <label style={{color: "white"}} htmlFor="email">Email</label>
                   <Input
                     style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="text"
@@ -145,7 +145,7 @@ const Register = () => {
                 </div>
 
                 <div>
-                  <label style={{color: "black"}} htmlFor="password">Password</label>
+                  <label style={{color: "white"}} htmlFor="password">Password</label>
                   <Input 
                     style={{color: "black", background: "#f7f7f7", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
                     type="password"
@@ -159,22 +159,22 @@ const Register = () => {
 
                 <div>
                   <br/>
-                  <button style={{color: "black", background: "white", border: "2px #000 solid", borderRadius: "5px"}}>Sign Up</button><br/>
-                  <small style={{color: "black", fontSize: "20px"}}>By creating an account with us, you are agreeing to our <a href="#">Terms of service</a></small>
+                  <button style={{color: "white", background: "white", border: "2px #000 solid", borderRadius: "5px"}}>Sign Up</button><br/>
+                  <small style={{color: "white", fontSize: "20px"}}>By creating an account with us, you are agreeing to our <a href="#">Terms of service</a></small>
                 </div>
               </div>
             )}
 
             {message && (
               <div>
-                <div style={{color: "black"}} role="alert">
+                <div style={{color: "white"}} role="alert">
                   {message}
                 </div>
               </div>
             )}
             <CheckButton style={{ display: "none" }} ref={checkBtn} />
             <br/>
-            <small style={{color: "black"}}>Already have an account?</small> <a href="/profile/login">Login</a>
+            <small style={{color: "white"}}>Already have an account?</small> <a href="/profile/login">Login</a>
         </Form>
         </div>
       </div>
