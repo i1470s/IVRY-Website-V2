@@ -75,10 +75,10 @@ const Profile = () => {
       <p>
         <strong>Account Options:</strong>
       </p>
-      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a><br/>
-      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a><br/>
+      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Change Email</button></a><br/>
+      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Change Pass</button></a><br/>
       <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/>
-      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a>
+      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Delete Account</button></a>
       
       
       <div id="Footer">
