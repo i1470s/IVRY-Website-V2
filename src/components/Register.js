@@ -95,16 +95,10 @@ const Register = () => {
 
   return (
     <div>
-      <div id="Nav-bar" className="nav">
-        <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a>
-        </header>  
-      </div>
-    
       <body className="App-body">
       <br/>
       <br/>
-      <h3 style={{color: "white", }}>Welcome To IVRY</h3>
+      <h3 style={{color: "#fb5804", }}>IVRY</h3>
       <small style={{color: "white"}}>Our service requires you to have an account, create on below or sign into an existing account!</small>
           
           <div className="col-md-12">
