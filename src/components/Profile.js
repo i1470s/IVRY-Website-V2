@@ -55,28 +55,28 @@ const Profile = () => {
           <strong>{currentUser.username}</strong> Profile
         </h3>
       <p>
-        <strong>Username</strong> {currentUser.username}
+        <strong>Username:</strong> {currentUser.username}
       </p>
       <p>
-        <strong>Email</strong> {currentUser.email}
+        <strong>Email:</strong> {currentUser.email}
       </p>
       <p>
-        <strong>Account Id</strong> {currentUser.id}
+        <strong>Account Id:</strong> {currentUser.id}
       </p>
       <p>
-        <strong>Token</strong> {currentUser.accessToken.substring(0, 20)} ...{" "}
+        <strong>Token:</strong> {currentUser.accessToken.substring(0, 20)} ...{" "}
         {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
       </p>
-      <strong>Authorities</strong>
+      <strong>Authorities:</strong>
       <ul>
         {currentUser.roles &&
           currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
       </ul>
       <p>
-        <strong>Account Options</strong>
+        <strong>Account Options:</strong>
       </p>
-      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a>
-      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a>
+      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/>
+      <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a><br/>
       <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Coming Soon</button></a>
       
       
