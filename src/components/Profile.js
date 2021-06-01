@@ -35,7 +35,6 @@ const Profile = () => {
 
   const logOut = () => {
     dispatch(logout());
-    location.href = "https://ivry.tk";
   };
 
   return (
