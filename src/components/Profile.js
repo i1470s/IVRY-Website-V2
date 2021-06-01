@@ -35,6 +35,7 @@ const Profile = () => {
 
   const logOut = () => {
     dispatch(logout());
+    location.href = "https://ivry.tk";
   };
 
   return (
@@ -69,7 +70,7 @@ const Profile = () => {
         {currentUser.roles &&
           currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
       </ul>
-      <button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} href="/" onClick={logOut}>Log Out</button>
+      <button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button>
       
       <div id="Footer">
         <footer className="App-footer">
