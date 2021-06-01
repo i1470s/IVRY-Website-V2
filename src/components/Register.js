@@ -153,7 +153,7 @@ const Register = () => {
 
                 <div>
                   <br/>
-                  <button style={{color: "white", background: "#222", border: "2px #fff solid", borderRadius: "5px"}}>Sign Up</button><br/>
+                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Sign Up</button><br/>
                   <small style={{color: "white", fontSize: "20px"}}>By creating an account with us, you are agreeing to our <a href="#">Terms of service</a></small>
                 </div>
               </div>

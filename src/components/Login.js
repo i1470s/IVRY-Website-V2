@@ -110,11 +110,11 @@ const Login = (props) => {
 
           <div>
           <br/>
-            <button style={{color: "white", background: "#222", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
+            <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
               {loading && (
-                <span style={{color: "white", background: "#222"}}></span>
+                <span style={{color: "white", background: "#000"}}></span>
               )}
-              <span style={{color: "white", background: "#222"}}>Login</span>
+              <span style={{color: "white", background: "#000"}}>Login</span>
             </button>
           </div>
 
