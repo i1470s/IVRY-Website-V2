@@ -52,18 +52,18 @@ const App = () => {
       <Router history={history}>
       <Switch>
       <Route exact path="/" component={Login}/>
-      <PRoute exact path="/home" component={Home}/>      
-      <PRoute exact path="/learn" component={Learn}/>
-      <PRoute exact path="/store" component={Store}/>
-      <PRoute exact path="/search" component={Search}/>
-      <PRoute exact path="/ash" component={Ash}/>
-      <PRoute exact path="/404" component={PageNotFound}/>
+      <Route exact path="/home" component={Home}/>      
+      <Route exact path="/learn" component={Learn}/>
+      <Route exact path="/store" component={Store}/>
+      <Route exact path="/search" component={Search}/>
+      <Route exact path="/ash" component={Ash}/>
+      <Route exact path="/404" component={PageNotFound}/>
       
       <Route exact path="/profile" component={Profile}/>
-      <PRoute exact path="/profile/chats" component={Chats}/>
+      <Route exact path="/profile/chats" component={Chats}/>
       <Route exact path="/profile/login" component={Login}/>
-      <PRoute exact path="/profile/mod" component={BoardModerator}/>
-      <PRoute exact path="/profile/admin" component={BoardAdmin}/>
+      <Route exact path="/profile/mod" component={BoardModerator}/>
+      <Route exact path="/profile/admin" component={BoardAdmin}/>
       <Route exact path="/profile/signup" component={Register}/>
       
       <Route exact path="/legal" component={Legal}/>
