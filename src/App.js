@@ -66,10 +66,6 @@ const App = () => {
       <Route exact path="/profile/signup" component={Register}/>
       
       <Route exact path="/legal" component={Legal}/>
-      <Route exact path="/legal#Termsofservice" component={Legal}/>
-      <Route exact path="/legal#License" component={Legal}/>
-      <Route exact path="/legal#Privacypolicy" component={Legal}/>
-      <Route exact path="/legal#About" component={Legal}/>
       
       <Redirect to="/404"/>
       </Switch>

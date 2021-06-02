@@ -913,7 +913,7 @@ https//www.gnu.org/licenses/why-not-lgpl.html.</small><br/>
       
       <div id="Footer">
         <footer className="App-footer">
-              <a href="/home"><img style={{opacity: ".5"}} width="30px" height="40px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
+              <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/learn"><img width="30px" height="40px" alt="learn" src={learn}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>
