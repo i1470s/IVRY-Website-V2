@@ -153,9 +153,8 @@ const Register = () => {
 
                 <div>
                   <br/>
-                  <small style={{color: "white"}}>*If you are under the age of 13 please do not singup for our service without parental consent*</small><br/>
-                  <small style={{color: "white"}}>By creating an account with us, you are agreeing to our <a href="/legal#Termsofservice">Terms of service</a></small><br/><br/>
-                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Sign Up</button>
+                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Sign Up</button><br/>
+                  <small style={{color: "white"}}>By creating an account with us, you are agreeing to our <a href="/legal#Termsofservice">Terms of service</a></small>
                 </div>
               </div>
             )}
