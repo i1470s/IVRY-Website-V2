@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import { connectedRouterRedirect } from 'redux-auth-wrapper/history4/redirect'
 
 import "./components/css/Main.css";
 
@@ -35,7 +36,7 @@ const App = () => {
   redirectPath: '/profile/login',
    // If selector is true, wrapper will not redirect
    // For example let's check that state contains user data
-  authenticatedSelector: state => state.user.data !== null,
+  authenticatedSelector: state => state.auth !== null,
   // A nice display name for this check
   wrapperDisplayName: 'UserIsAuthenticated'
   })
