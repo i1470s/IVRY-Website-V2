@@ -75,7 +75,21 @@ const Home = () => {
               <br/>
               <br/>
               <br/>
-
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               <h1><a name="License"></a>App / Company info</h1>
               <h2 style={{color: "#fb5804"}}><a name="License"></a>About Us</h2>
               <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Welcome to ivry! and thank you fro creating an account with us {currentUser.username}! Ivry currently is a very small group of coders working to create and learn as many new languages and programs 
