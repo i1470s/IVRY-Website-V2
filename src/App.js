@@ -16,6 +16,7 @@ import Profile from "./components/Profile";
 import BoardModerator from "./components/BoardModerator";
 import BoardAdmin from "./components/BoardAdmin";
 import PageNotFound from "./components/404"
+import Legal from "./components/Legal"
 
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
@@ -64,9 +65,11 @@ const App = () => {
       <Route exact path="/profile/admin" component={BoardAdmin}/>
       <Route exact path="/profile/signup" component={Register}/>
       
-      <Route exact path="/legal" component={PageNotFound}/>
-      <Route exact path="/legal/termsofservice" component={PageNotFound}/>
-      <Route exact path="/legal/about" component={PageNotFound}/>
+      <Route exact path="/legal" component={Legal}/>
+      <Route exact path="/legal#Termsofservice" component={Legal}/>
+      <Route exact path="/legal#License" component={Legal}/>
+      <Route exact path="/legal#Privacypolicy" component={Legal}/>
+      <Route exact path="/legal#About" component={Legal}/>
       
       <Redirect to="/404"/>
       </Switch>
