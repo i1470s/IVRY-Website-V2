@@ -115,7 +115,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="username">Username</label>
                   <Input
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
+                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
                     type="text"
                     name="username"
                     value={username}
@@ -128,7 +128,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="email">Email</label>
                   <Input
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
+                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
                     type="text"
                     name="email"
                     value={email}
@@ -141,7 +141,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="password">Password</label>
                   <Input 
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "300px"}}
+                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
                     type="password"
                     name="password"
                     value={password}
