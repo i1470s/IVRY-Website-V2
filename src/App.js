@@ -62,8 +62,8 @@ const App = () => {
       <Router history={history}>
       <Switch>
       <Route exact path="/" component={Login}/>
-      <Route exact path="/home" component={userIsAuthenticsted(Home)}/>      
-      <Route exact path="/learn" component={userIsAuthenticsted(Learn)}/>
+      <Route exact path="/home" component={userIsAuthenticated(Home)}/>      
+      <Route exact path="/learn" component={userIsAuthenticated(Learn)}/>
       <Route exact path="/store" component={Store}/>
       <Route exact path="/search" component={Search}/>
       <Route exact path="/ash" component={Ash}/>
