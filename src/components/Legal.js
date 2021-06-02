@@ -92,7 +92,7 @@ const Home = () => {
               <br/>
               <h1><a></a>App / Company info</h1>
               <h2 style={{color: "#fb5804"}}><a name="About"></a>About Us</h2>
-              <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Welcome to ivry! and thank you fro creating an account with us {currentUser.username}! Ivry currently is a very small group of coders working to create and learn as many new languages and programs 
+              <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Welcome to ivry! and thank you fro creating an account with us! Ivry currently is a very small group of coders working to create and learn as many new languages and programs 
               possible we are striving to be the best we can be with our team size, so we do ask for some slack if you found a bug or something isnt working currently, we are rolling out new features daily so get used to seeing some change, 
               as we are slowly rolling out of alpha into beta!!!! and we are very exited for what our future holds.</small><br/>
 
