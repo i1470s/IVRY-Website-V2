@@ -36,7 +36,7 @@ const App = () => {
   redirectPath: '/profile/login',
    // If selector is true, wrapper will not redirect
    // For example let's check that state contains user data
-  authenticatedSelector: state => state.auth !== null,
+  authenticatedSelector: { user: currentUser } = useSelector((state) => state.auth);
   // A nice display name for this check
   wrapperDisplayName: 'UserIsAuthenticated'
   })
