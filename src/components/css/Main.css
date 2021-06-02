@@ -123,6 +123,12 @@ html {
     text-decoration: none;
     opacity: .5;
   }
+
+  a:active {
+    text-decoration: none;
+    opacity: .5;
+    color: white;
+  }
   
   button:hover{
     text-decoration: none;
