@@ -59,7 +59,7 @@ const App = () => {
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
       
-      <Route exact path="/profile" component={Profile}/>
+      <PRoute exact path="/profile" component={Profile}/>
       <Route exact path="/profile/chats" component={Chats}/>
       <Route exact path="/profile/login" component={Login}/>
       <Route exact path="/profile/mod" component={BoardModerator}/>
