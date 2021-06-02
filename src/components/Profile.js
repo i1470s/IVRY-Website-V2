@@ -79,6 +79,9 @@ const Profile = () => {
       <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Change Pass</button></a><br/>
       <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/>
       <a style={{color: "white"}} href=""><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Delete Account</button></a><br/><br/><br/><br/><br/><br/><br/>
+      <p>
+        <strong>App Options:</strong>
+      </p>
       <a style={{color: "white"}} href="/legal/about"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>App Information</button></a>
       
       
