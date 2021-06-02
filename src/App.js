@@ -29,6 +29,16 @@ const App = () => {
 
   const { user: currentUser } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
+  
+  const userIsAuthenticated = connectedRouterRedirect({
+   // The url to redirect user to if they fail
+  redirectPath: '/profile/login',
+   // If selector is true, wrapper will not redirect
+   // For example let's check that state contains user data
+  authenticatedSelector: state => state.user.data !== null,
+  // A nice display name for this check
+  wrapperDisplayName: 'UserIsAuthenticated'
+  })
 
   useEffect(() => {
     history.listen((location) => {
@@ -50,16 +60,9 @@ const App = () => {
   return (
       <Router history={history}>
       <Switch>
-      <Route exact path="/" render={() => (
-  loggedIn ? (
-    <Redirect to="/home"/>
-  ) : (
-    <Home/>
-  )
-)}/>
       <Route exact path="/" component={Login}/>
-      <Route exact path="/home" component={Home}/>      
-      <Route exact path="/learn" component={Learn}/>
+      <Route exact path="/home" component={userIsAuthenticsted(Home)}/>      
+      <Route exact path="/learn" component={userIsAuthenticsted(Learn)}/>
       <Route exact path="/store" component={Store}/>
       <Route exact path="/search" component={Search}/>
       <Route exact path="/ash" component={Ash}/>
