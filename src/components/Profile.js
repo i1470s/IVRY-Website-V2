@@ -84,6 +84,8 @@ const Profile = () => {
       </p>
       <a style={{color: "white"}} href="/legal"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>App Information</button></a>
       <br/>
+      <br/>
+      <br/>
       <div id="Footer">
         <footer className="App-footer">
               <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
