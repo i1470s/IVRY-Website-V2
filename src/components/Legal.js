@@ -52,6 +52,7 @@ const Home = () => {
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Legal</h1>
               <br/>
               <strong>Version</strong>
+              <br/>
               <small>{ver.version}</small>
               <br/>
               <strong>App / Company info</strong>
