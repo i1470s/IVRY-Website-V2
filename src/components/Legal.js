@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
+import ver from "../package.json"
 
 import "./css/Main.css";
 
@@ -49,6 +50,9 @@ const Home = () => {
               <br/>
               <br/>
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Legal</h1>
+              <br/>
+              <strong>Version</strong>
+              <small>{ver.version}</small>
               <br/>
               <strong>App / Company info</strong>
               <br/>
