@@ -61,11 +61,6 @@ const Home = () => {
               <small>We were founded in early 2018 and since then weve been learning and coding many different languages and programs, currently this very site is our biggest project, 
               <br/>this is the IVRY websites third ideration since 2018 and we expect to keep changing and updating it for years to come, currently were working on our api and creating a back end, while still offering all our services, 
               so do expect to see many changes, reworkings and redos for the next bit.</small>
-
-
-              <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
         </body>
       </div>
       
