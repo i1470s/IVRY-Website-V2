@@ -20,7 +20,6 @@ import Legal from "./components/Legal"
 
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
-import { PRoute } from "./reducers/protectedroute.js";
 
 import { history } from "./helpers/history";
 
@@ -52,7 +51,7 @@ const App = () => {
       <Router history={history}>
       <Switch>
       <Route exact path="/" component={Login}/>
-      <PRoute exact path="/home" component={Home}/>      
+      <Route exact path="/home" component={Home}/>      
       <Route exact path="/learn" component={Learn}/>
       <Route exact path="/store" component={Store}/>
       <Route exact path="/search" component={Search}/>

@@ -11,12 +11,12 @@ export const PRoute = ({
       {...rest}
       render={props => {
         if ((auth.isLoggedIn)) {
-          return <Component {...props} />;
+          return;
         } else {
           return (
             <Redirect
               to={{
-                pathname: "/profile/login"
+                pathname: "/"
                 }
               }
             />
