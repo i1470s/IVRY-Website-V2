@@ -9,7 +9,7 @@ import search from './images/search.svg';
 import learn from './images/learn.svg';
 
 /*CSS Imports*/
-import './css/Main.css';
+import './css/styles.scss';
 
 
 /*REACT START*/
