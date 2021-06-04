@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Loading from "react-fullscreen-loading";
 
 import UserService from "../services/user.service";
 
@@ -31,14 +32,6 @@ const Home = () => {
       }
     );
   }, []);
-
-  constructor(); {
-    super();
-    this.state = {
-      loading: true
-    };
-    this.timeout = null;
-  }
 
   return (
     <div id="Page" className="App">
