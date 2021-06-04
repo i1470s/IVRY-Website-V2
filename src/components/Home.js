@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Loading from 'react-fullscreen-loading';
 
 import UserService from "../services/user.service";
 
@@ -39,18 +38,6 @@ const Home = () => {
       loading: true
     };
     this.timeout = null;
-  }
-
-  componentDidMount(); {
-    this.timeout = setTimeout(() => {
-      this.setState({ loading: false });
-    }, 3000); // 3 seconds
-  }
-
-  componentWillUnmount(); {
-    if (this.timeout) {
-      clearTimeout(this.timeout);
-    }
   }
 
   return (
