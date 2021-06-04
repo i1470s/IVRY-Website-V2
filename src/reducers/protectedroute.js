@@ -16,7 +16,7 @@ export const PRoute = ({
           return (
             <Redirect
               to={{
-                pathname: "/"
+                pathname: "/profile/login"
                 }
               }
             />
