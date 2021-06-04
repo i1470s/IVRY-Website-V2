@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
-import "./components/css/Main.css";
+import "./components/css/styles.scss";
 
 import Login from "./components/Login";
 import Register from "./components/Register";
