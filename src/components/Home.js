@@ -33,13 +33,9 @@ const Home = () => {
     );
   }, []);
 
-  setTimeout(function(){
-    document.getElementById('hideme').className = 'waa';
-}, 5000);
-
   return (
     <div id="Page" className="App">
-      <Loading id="hideme" loading background="#2ecc71" loaderColor="#3498db" />
+      <Loading id="hideme" loading background="#000" loaderColor="#fb5804" />
       
       
       

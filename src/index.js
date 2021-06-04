@@ -11,3 +11,8 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
   );
+  
+  setTimeout(function(){
+    document.getElementById('hideme').className = 'waa';
+}, 5000);
+
