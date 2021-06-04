@@ -206,6 +206,17 @@ html {
   
   /*SEARCH-TAB*/
   
+  input, button {
+    height: 5;
+    font-family: var(--font-fam);
+    border: 0;
+    border-radius: 2.5px;
+    color: var(--color-dark);
+    font-size: 1.8rem;
+  }
+  
+
+  
   input[type="search"] {
     outline: 1px; 
     max-width: 90%;
