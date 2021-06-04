@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Loading from 'react-fullscreen-loading';
 
 import UserService from "../services/user.service";
 
@@ -34,6 +35,7 @@ const Home = () => {
 
   return (
     <div id="Page" className="App">
+      <Loading loading background="#2ecc71" loaderColor="#3498db" />
       
       
       
