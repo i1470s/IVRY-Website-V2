@@ -32,10 +32,6 @@ const Home = () => {
     );
   }, []);
 
-  $(document).ready(function() {
-    $(".loader-wrapper").fadeOut("slow");
-  });
-
   return (
     <div id="Page" className="App">
       
