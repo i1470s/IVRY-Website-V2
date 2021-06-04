@@ -22,13 +22,6 @@ const Home = () => {
       dispatch(clearMessage()); 
     });
   }, [dispatch]);
-
-  useEffect(() => {
-    if (currentUser) {
-      setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
-      setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
-    }
-  }, [currentUser]);
   
   useEffect(() => {
     UserService.getPublicContent().then(
