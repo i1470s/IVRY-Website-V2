@@ -13,9 +13,23 @@ import store from "./images/store.svg";
 import search from "./images/search.svg";
 
 const Home = () => {
-  const [content, setContent] = useState("");
   const { user: currentUser } = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
+  const [content, setContent] = useState("");
+  
+  useEffect(() => {
+    history.listen((location) => {
+      dispatch(clearMessage()); 
+    });
+  }, [dispatch]);
 
+  useEffect(() => {
+    if (currentUser) {
+      setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
+      setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
+    }
+  }, [currentUser]);
+  
   useEffect(() => {
     UserService.getPublicContent().then(
       (response) => {
