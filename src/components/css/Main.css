@@ -217,7 +217,7 @@ html {
   input[type="search"] {
     outline: 1px; 
     max-width: 90%;
-    min-width: 50%;
+    min-width: 35%;
     background: #222;
     padding: 0 1.6rem;
     border-radius: 5px;
