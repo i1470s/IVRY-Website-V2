@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
-import ver from "../package.json"
 
 import "./css/Main.css";
 
@@ -53,7 +52,7 @@ const Home = () => {
               <br/>
               <strong>Version</strong>
               <br/>
-              <small>{ver.version}</small>
+              <small>ivry@alpha.3.7.9</small>
               <br/>
               <strong>App / Company info</strong>
               <br/>

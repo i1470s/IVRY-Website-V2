@@ -87,6 +87,7 @@ html {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    border: 2px #222 solid
   }
   
   .profile-img-card {
@@ -117,17 +118,16 @@ html {
   
   a { 
     text-decoration: none;
+    color: #fb5804;
   }
   
   a:hover {
-    text-decoration: none;
     opacity: .5;
+    color: #fb5804;
   }
 
   a:active {
-    text-decoration: none;
-    opacity: .5;
-    color: white;
+    color: #fb5804;
   }
   
   button:hover{
