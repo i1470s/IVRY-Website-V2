@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { WaveLoading } from 'react-loadingg';
 
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
