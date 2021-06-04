@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
+import { history } from "./helpers/history";
 
 import "./css/Main.css";
 
@@ -14,7 +15,6 @@ import search from "./images/search.svg";
 
 const Home = () => {
   const { user: currentUser } = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
   const [content, setContent] = useState("");
   
   useEffect(() => {
