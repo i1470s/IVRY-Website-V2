@@ -57,10 +57,11 @@ const Home = () => {
               <strong>App / Company info</strong>
               <br/>
               <a href="#About">About Us</a>
+              <a href="#Errors">Error Codes</a>
               <br/>
               <strong>Polices</strong>
               <br/>
-              <a href="#Termsofservice">Terms of service</a>
+              <a href="#Termsofservice">Terms Of Service</a>
               <a href="#Privacypolicy">Privacy Policy</a>
               <a href="#License">License</a>
               <br/>
@@ -99,6 +100,9 @@ const Home = () => {
               <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Welcome to ivry! and thank you fro creating an account with us! Ivry currently is a very small group of coders working to create and learn as many new languages and programs 
               possible we are striving to be the best we can be with our team size, so we do ask for some slack if you found a bug or something isnt working currently, we are rolling out new features daily so get used to seeing some change, 
               as we are slowly rolling out of alpha into beta!!!! and we are very exited for what our future holds.</small><br/>
+             
+              <h2 style={{color: "#fb5804"}}><a name="Errors"></a>Error Codes</h2>
+              <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Coming soon</small>
 
               <h1><a></a>Polices</h1>
               <h2 style={{color: "#fb5804"}}><a name="Termsofservice"></a>Terms Of Service</h2>

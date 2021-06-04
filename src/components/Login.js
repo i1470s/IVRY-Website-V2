@@ -121,7 +121,7 @@ const Login = (props) => {
           {message && (
             <div>
               <div style={{color: "white"}} role="alert">
-                {message}
+                {message} <a href="/legal#Errors">Why am i seeing this?</a>
               </div>
             </div>
           )}
