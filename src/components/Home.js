@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <div id="Page" className="App">
-      <Loading loading background="#2ecc71" loaderColor="#3498db" />
+      <Loading id="hideme" loading background="#2ecc71" loaderColor="#3498db" />
       
       
       
