@@ -102,7 +102,11 @@ const Home = () => {
               as we are slowly rolling out of alpha into beta!!!! and we are very exited for what our future holds.</small><br/>
              
               <h2 style={{color: "#fb5804"}}><a name="Errors"></a>Error Codes</h2>
-              <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>Coming soon</small>
+              <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>
+              <ul>
+                 <li>EHOSTUNREACH: This is an issue with our server being down</li>
+              </ul>
+              </small>
 
               <h1><a></a>Polices</h1>
               <h2 style={{color: "#fb5804"}}><a name="Termsofservice"></a>Terms Of Service</h2>
