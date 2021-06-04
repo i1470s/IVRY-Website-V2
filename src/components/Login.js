@@ -111,7 +111,7 @@ const Login = (props) => {
           <div>
           <br/>
             {loading && (
-                <small style={{color: "white"}}>Authorizing With Server...</small>
+                <small style={{color: "white"}}></small>
               )}
             <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
               <span style={{color: "white", background: "#000"}}>Login</span>
