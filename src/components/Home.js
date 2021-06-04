@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
-import { history } from "./helpers/history";
+import { history } from "../helpers/history";
 
 import "./css/Main.css";
 
