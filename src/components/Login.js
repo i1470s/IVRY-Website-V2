@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Redirect } from 'react-router-dom';
+import { WaveLoading } from 'react-loadingg';
 
 import Form from "react-validation/build/form";
 import Input from "react-validation/build/input";
@@ -110,10 +111,10 @@ const Login = (props) => {
 
           <div>
           <br/>
-            <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
-              {loading && (
-                <span style={{color: "white", background: "#000"}}></span>
+            {loading && (
+                <WaveLoading color="#fb5804" size="large"/>
               )}
+            <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
               <span style={{color: "white", background: "#000"}}>Login</span>
             </button>
           </div>
