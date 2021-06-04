@@ -33,9 +33,29 @@ const Home = () => {
     );
   }, []);
 
+  constructor(); {
+    super();
+    this.state = {
+      loading: true
+    };
+    this.timeout = null;
+  }
+
+  componentDidMount(); {
+    this.timeout = setTimeout(() => {
+      this.setState({ loading: false });
+    }, 3000); // 3 seconds
+  }
+
+  componentWillUnmount(); {
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
+  }
+
   return (
     <div id="Page" className="App">
-      <Loading id="hideme" loading background="#000" loaderColor="#fb5804" />
+      <Loading loading background="#000" loaderColor="#fb5804" />
       
       
       
