@@ -52,7 +52,7 @@ const App = () => {
       <Router history={history}>
       <Switch>
       <Route exact path="/" component={Login}/>
-      <PRoute exact path="/home" component={Home}/>      
+      <Route exact path="/home" component={Home}/>      
       <Route exact path="/learn" component={Learn}/>
       <Route exact path="/store" component={Store}/>
       <Route exact path="/search" component={Search}/>

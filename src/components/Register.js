@@ -48,6 +48,13 @@ const vpassword = (value) => {
   }
 };
 
+
+let count = 0;
+count++;
+if (count>6){
+document.getElementById("signin").disabled = true;}
+
+
 const Register = () => {
   const form = useRef();
   const checkBtn = useRef();
@@ -153,7 +160,7 @@ const Register = () => {
 
                 <div>
                   <br/>
-                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Sign Up</button><br/>
+                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} Id="signin">Sign Up</button><br/>
                   <small style={{color: "white"}}>By creating an account with us, you are agreeing to our <a href="/legal#Termsofservice">Terms of service</a></small>
                 </div>
               </div>
