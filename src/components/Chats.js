@@ -10,7 +10,7 @@ import user from './images/user.svg';
 import dm from './images/dm.svg'
 
 /*CSS Imports*/
-import './css/Main.css';
+import './css/styles.scss';
 
 
 /*REACT START*/

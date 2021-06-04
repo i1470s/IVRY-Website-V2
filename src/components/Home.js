@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
 
-import "./css/Main.css";
+import "./css/styles.scss";
 
 import dm from "./images/dm.svg";
 import user from "./images/user.svg";
