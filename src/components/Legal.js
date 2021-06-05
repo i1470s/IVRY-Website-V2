@@ -105,6 +105,8 @@ const Home = () => {
               <small style={{borderTop: "solid 2px #222", borderBottom: "solid 2px #222", maxWidth: "500px"}}>
               <ul>
                  <li>EHOSTUNREACH: This is an issue with our server being down</li>
+                 <li>Network Error: This is an issue with our API being down</li>
+                 <li>User Not Found: Check that your username you entered is correct</li>
               </ul>
               </small>
 
