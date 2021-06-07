@@ -26,6 +26,10 @@ html {
     margin-top: 50px;
 }
 
+.loaded{
+    opacity: 1;
+    }
+
   /*APP CSS*/
   
   .App {
@@ -66,6 +70,7 @@ html {
     font-size: calc(7px + 2vmin);
     color: white;
     overflow: auto;
+    opacity: 0;
     margin-bottom: 75px;
   }
   
