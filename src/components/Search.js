@@ -34,7 +34,7 @@ const Search = () => {
                       <br/>
                       <br/>
                       <form id="form" role="search">
-                      <input style={{position: "fixed", left: "15px", top: "80px"}} type="search" id="query" name="q" placeholder="Search..." autofocus required /> Popular: 
+                      <input style={{position: "fixed", left: "15px", top: "80px"}} type="search" id="query" name="q" placeholder="Search..." autofocus required /> 
                       </form>
                       <b><p>Coming Soon</p></b>
                 </body>
