@@ -1,6 +1,7 @@
 /*Imports*/
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import gtav from "./images/gtav.jpeg";
 
 /*Image Imports*/
 import home from './images/home.svg';
@@ -38,7 +39,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
 
                       <h3 style={{color: "#fff"}}>Welcome {currentUser.username}</h3>
                       
-                      <div style={{backgroundImage: 'url(${https://images5.alphacoders.com/849/thumb-1920-849437.jpg})'}} class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
+                      <div style={{backgroundSize: "cover", backgroundImage: 'url(${gtav})'}} class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
                       <div class="list-shop"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div> 
                       <div class="list-shop"><h4>Discord Nitro</h4> <p>Stock: 0</p><p>Price: $5.50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f643a59f027a" type="submit">Purchase</button></div> 
                       <div class="list-shop"><h4>Custom Discord Bot</h4> <p>Price: $25</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="6083c9146e422" type="submit">Purchase</button></div>  
