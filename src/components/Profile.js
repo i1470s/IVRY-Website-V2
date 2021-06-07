@@ -79,7 +79,7 @@ const Profile = () => {
       <p>
         <strong>App Options:</strong>
       </p>
-      <a style={{color: "white"}} href="/legal"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>App Information</button></a>
+      <a style={{color: "white"}} href="/legal"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>App Information</button></a><br/><br/><br/><br/><br/>
       <br/>
       <br/>
       <br/>
