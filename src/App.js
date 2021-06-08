@@ -15,8 +15,9 @@ import Ash from "./components/BoardAdmin";
 import Profile from "./components/Profile";
 import BoardModerator from "./components/BoardModerator";
 import BoardAdmin from "./components/BoardAdmin";
-import PageNotFound from "./components/404"
-import Legal from "./components/Legal"
+import PageNotFound from "./components/404";
+import Legal from "./components/Legal";
+import Recoverys from "./components/Recoverys";
 
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
@@ -53,11 +54,13 @@ const App = () => {
       <Route exact path="/" component={Login}/>
       <Route exact path="/home" component={Home}/>      
       <Route exact path="/learn" component={Learn}/>
-      <Route exact path="/store" component={Store}/>
       <Route exact path="/search" component={Search}/>
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
       
+      <Route exact path="/store" component={Store}/>
+      <Route exact path="/store/recoverys" component={Recoverys}/>
+
       <Route exact path="/profile" component={Profile}/>
       <Route exact path="/profile/chats" component={Chats}/>
       <Route exact path="/profile/login" component={Login}/>
