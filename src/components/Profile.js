@@ -50,6 +50,7 @@ const Profile = () => {
       <br/>
       <br/>
       <br/>
+      <br/>
       <div style={{color: "white"}}>
         <h3>
           <strong>{currentUser.username}</strong> Profile

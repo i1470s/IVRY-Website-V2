@@ -35,6 +35,7 @@ const Chats = () => {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
                 <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Messages</h1>
                 <h1>Dms Coming Soon</h1>
           </body>
