@@ -38,8 +38,18 @@ const { user: currentUser } = useSelector((state) => state.auth);
 
                       <h3 style={{color: "#fff"}}>Welcome {currentUser.username}</h3>
                       
-                      <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
-                      <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div> 
+                      <div class="list-shop"><h4>Starter Recovery</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fa2d9728c" type="submit">Purchase</button></div>
+                      <div class="list-shop"><h4>Basic Recovery</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fb45a9771" type="submit">Purchase</button></div>
+                      <div class="list-shop"><h4>Pro Recovery</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fc353553c" type="submit">Purchase</button></div>
+                      <div class="list-shop"><h4>Crazy Recovery</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fc365e6b5" type="submit">Purchase</button></div>
+                      <div class="list-shop"><h4>Insane Recovery</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fc3a22742" type="submit">Purchase</button></div>
+                      <div class="list-shop"><h4>Premodded Account</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fd02368cc" type="submit">Purchase</button></div>
+                      
+                      <div class="list-shop2"><h4>Starter Recovery</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
+                      <div class="list-shop2"><h4>Basic Recovery</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
+                      <div class="list-shop2"><h4>Pro Recovery</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
+                      <div class="list-shop2"><h4>Crazy Recovery</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
+                      <div class="list-shop2"><h4>Insane Recovery</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
                 </body>
             </div>
             

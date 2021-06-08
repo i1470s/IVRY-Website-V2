@@ -38,8 +38,8 @@ const { user: currentUser } = useSelector((state) => state.auth);
 
                       <h3 style={{color: "#fff"}}>Welcome {currentUser.username}</h3>
                       
-                      <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
-                      <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div> 
+                      <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys#GTA"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
+                      <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys#RDR"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div> 
                       <div class="list-shop4"><h4>Discord Nitro</h4> <p>Stock: 0</p><p>Price: $5.50</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f643a59f027a" type="submit">Purchase</button></div> 
                       <div class="list-shop4"><h4>Custom Discord Bot</h4> <p>Price: $25</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="6083c9146e422" type="submit">Purchase</button></div>  
                       <div class="list-shop4"><h4>Hire Us</h4> <p>Price: Varies</p> <a href="https://linktr.ee/brayden_viana"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Contact</button></a></div>
