@@ -34,6 +34,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <br/>
                       <br/>
                       <br/>
+                      <br/>
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Store / Recoverys</h1>
 
                       <h3 style={{color: "#fff"}}><a name="GTA"></a>Welcome {currentUser.username}</h3>
