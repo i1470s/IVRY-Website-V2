@@ -1,5 +1,6 @@
 /*Imports*/
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 /*Image Imports*/
 import home from './images/home.svg';
@@ -15,6 +16,7 @@ import './css/styles.scss';
 
 
 const Learn = () => {
+const { user: currentUser } = useSelector((state) => state.auth);
     return (
        <div id="Page" className="App">
             
@@ -34,7 +36,11 @@ const Learn = () => {
                       <br/>
                       <br/>
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Tutorials</h1>
-                      <small>Welcome</small>
+                      <h3>Welcome {currentUser.username}</h3>
+
+                      <div class="list-learn"><h4>COMING SOON</h4> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
+                      <div class="list-learn"><h4>COMING SOON</h4> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
+                      <div class="list-learn"><h4>COMING SOON</h4> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
                 </body>
             </div>
             
