@@ -49,6 +49,7 @@ const Home = () => {
               <br/>
               <br/>
               <br/>
+              <br/>
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Home</h1>
               <h3>Welcome {currentUser.username}</h3>
               <br/>
