@@ -11,21 +11,6 @@ html {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
   }
-  
-  .list-shop{
-    float: left;
-    border-radius: 5px;
-    background: #000;
-    color: #fff;
-    border: #222 solid 2px;
-    padding: 20px 25px 30px;
-    width: 325px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    text-align: center;
-    margin: 0 auto 25px;
-    margin-top: 50px;
-}
 
   /*APP CSS*/
   
@@ -191,35 +176,75 @@ html {
   
   /*STORE-TAB*/
   
-  .store-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  .store-list {
-    border-radius: 0px;
-    padding: 1%;
-    width: 29.33%;
-    height: 200px;
+  .list-shop{
+    float: left;
+    border-radius: 5px;
+    background: #000;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/924/965/148/car-machine-night-gta-v-wallpaper-preview.jpg");
+    background-position: center;
+    color: #fff;
+    border: #222 solid 2px;
+    padding: 20px 25px 30px;
+    background-size: cover;
+    width: 325px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     text-align: center;
-    margin: 1%;
-  }
-  
-  .store-button {
-    color: #fb5804;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;  
-    width: 100px;
-    height: 25px;
-    background: #222;
-    border-radius: 40px;
-    border: none;
-    outline: 0;
-  }
-  
+    margin: 0 auto 25px;
+    margin-top: 50px;
+}
+
+.list-shop2{
+  float: left;
+  border-radius: 5px;
+  background: #000;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/241/432/901/rockstar-games-red-dead-redemption-2-video-games-red-dead-redemption-wallpaper-preview.jpg");
+  background-position: center;
+  color: #fff;
+  border: #222 solid 2px;
+  padding: 20px 25px 30px;
+  background-size: cover;
+  width: 325px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+}
+
+.list-shop3{
+  float: left;
+  border-radius: 5px;
+  background: #000;
+  background-image: url("https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png");
+  background-position: center;
+  color: #fff;
+  border: #222 solid 2px;
+  padding: 20px 25px 30px;
+  background-size: cover;
+  width: 325px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+}
+
+.list-shop4{
+  float: left;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  border: #222 solid 2px;
+  padding: 20px 25px 30px;
+  width: 325px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+}
+
   /*SEARCH-TAB*/
   
   input, button {
