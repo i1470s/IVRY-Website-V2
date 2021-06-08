@@ -19,6 +19,11 @@ html {
     background-color: #000;
   }
   
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
   .nav {
     border-bottom: #222 1px solid;
     position: fixed;
@@ -212,7 +217,7 @@ html {
   margin-top: 50px;
 }
 
-.list-shop4{
+.list-shop3{
   float: left;
   border-radius: 5px;
   background: #000;
