@@ -46,7 +46,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <div class="list-shop"><h4>Insane Recovery</h4> <p>Stock: Infinite</p><p>Price: $25</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fc3a22742" type="submit">Purchase</button></div>
                       <div class="list-shop"><h4>Premodded Account</h4> <p>Stock: 0</p><p>Price: $30</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="5f63fd02368cc" type="submit">Purchase</button></div>
                       <br/>
-                      
+
                       <h4 style={{color: "#fb5804"}}><a name="RDR"></a>RDR2 Recoverys</h4>
 
                       <div class="list-shop2"><h4>Starter Recovery</h4> <p>Stock: Infinite</p><p>Price: $10</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Unavailable</button></div> 
