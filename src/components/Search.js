@@ -1,5 +1,6 @@
 /*Imports*/
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 /*Image Imports*/
 import home from './images/home.svg';
@@ -15,6 +16,7 @@ import './css/styles.scss';
 
 
 const Search = () => {
+const { user: currentUser } = useSelector((state) => state.auth);
     return (
         <div id="Page" className="App">
             
@@ -34,10 +36,37 @@ const Search = () => {
                       <br/>
                       <br/>
                       <br/>
-                      <form id="form" role="search">
-                      <input style={{position: "fixed", left: "15px", top: "80px"}} type="search" id="query" name="q" placeholder="Search..." autofocus required /> 
+                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Search</h1>
+                      <h3>Welcome {currentUser.username}</h3>
+                      <br/>
+
+                      <form id="form" role="search" method="get" action="http://www.google.com/search" target="_blank">
+                      <input type="hidden" name="sitesearch" value="ivry.tk" />
+                      <input style={{marginTop: "40px"}} type="search" maxlength="255" id="query" name="q" placeholder="Search..." autofocus required /> 
                       </form>
-                      <b><p>Coming Soon</p></b>
+                      <br/>
+                      
+                      <h5 style={{color: "#fb5804"}}>Popular:</h5>
+
+                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+                      <button className="list-search">SOON</button> 
+                      <button className="list-search">SOON</button>
+                      </div>
+
+                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+                      <button className="list-search">SOON</button> 
+                      <button className="list-search">SOON</button>
+                      </div>
+
+                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+                      <button className="list-search">SOON</button> 
+                      <button className="list-search">SOON</button>
+                      </div>
+
+                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
+                      <button className="list-search">SOON</button> 
+                      <button className="list-search">SOON</button>
+                      </div>
                 </body>
             </div>
             
