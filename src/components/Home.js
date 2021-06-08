@@ -45,7 +45,7 @@ const Home = () => {
       
 
       <div id="Content">
-        <body onload="document.body.classList.add('loaded')" className="App-body">
+        <body className="App-body">
               <br/>
               <br/>
               <br/>
