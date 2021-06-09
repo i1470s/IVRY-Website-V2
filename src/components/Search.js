@@ -49,7 +49,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <h5 style={{color: "#fb5804"}}>Popular:</h5>
 
                       <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                      <button className="list-search">SOON</button> 
+                      <button className="list-search" style={{backgroundImage: "url("https://c4.wallpaperflare.com/wallpaper/924/965/148/car-machine-night-gta-v-wallpaper-preview.jpg")"}}>SOON</button> 
                       <button className="list-search">SOON</button>
                       </div>
 
