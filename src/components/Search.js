@@ -42,7 +42,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
 
                       <form id="form" role="search" method="get" action="http://www.google.com/search" target="_blank">
                       <input type="hidden" name="sitesearch" value="ivry.tk" />
-                      <input style={{marginTop: "40px", width: "380px"}} type="search" maxlength="255" id="query" name="q" placeholder="Search..." autofocus required /> 
+                      <input style={{marginTop: "40px", width: "4p0px"}} type="search" maxlength="255" id="query" name="q" placeholder="Search..." autofocus required /> 
                       </form>
                       <br/>
                       
