@@ -39,7 +39,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Tutorials</h1>
                       <h3>Welcome {currentUser.username}</h3>
 
-                      <div class="list-learn"><h4>Coding</h4> <p>Coming Soon!</p> <p>Tutorials: 7</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
+                      <div class="list-shop4"><h4>Coding</h4> <p>Coming Soon!</p> <p>Tutorials: 7</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
                       <div class="list-learn"><h4>HomeBrew</h4> <p>Coming Soon!</p> <p>Tutorials: 3</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
                       <div class="list-learn"><h4>Repair</h4> <p>Coming Soon!</p> <p>Tutorials: 1</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
                 </body>
