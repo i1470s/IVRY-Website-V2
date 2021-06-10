@@ -44,29 +44,8 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <input type="hidden" name="sitesearch" value="ivry.tk" />
                       <input style={{marginTop: "40px", width: "365px"}} type="search" maxlength="255" id="query" name="q" placeholder="Search..." autofocus required /> 
                       </form>
-                      <br/>
                       
-                      <h5 style={{color: "#fb5804"}}>Popular:</h5>
-
-                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                      <button className="list-search">SOON</button> 
-                      <button className="list-search">SOON</button>
-                      </div>
-
-                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                      <button className="list-search">SOON</button> 
-                      <button className="list-search">SOON</button>
-                      </div>
-
-                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                      <button className="list-search">SOON</button> 
-                      <button className="list-search">SOON</button>
-                      </div>
-
-                      <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
-                      <button className="list-search">SOON</button> 
-                      <button className="list-search">SOON</button>
-                      </div>
+                    
                 </body>
             </div>
             
