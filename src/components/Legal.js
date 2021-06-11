@@ -54,6 +54,7 @@ const Home = () => {
               <strong>Version</strong>
               <br/>
               <small>ivry@alpha.3.7.9</small>
+              <small>Update info posted on my <a href="https://twitter.com/brayden_viana">Twitter</a></small>
               <br/>
               <strong>App / Company info</strong>
               <br/>
