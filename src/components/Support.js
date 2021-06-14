@@ -56,7 +56,7 @@ const Support = () => {
               <br/>
               <div className="col-md-12">
               <div className="card card-container">
-              <form name="contact" method="POST" data-netlify="true" ref={form}>
+              <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true" ref={form}>
 
                     <label style={{marginLeft: "-100px"}}>Your Username</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} type="text" name="name" /> 
 
@@ -72,7 +72,7 @@ const Support = () => {
                     </select>
 
                     <label style={{marginLeft: "-65px"}}>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}  name="message"></textarea>
-
+                    <br/>
                     <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button>
               </form>
             </div>
