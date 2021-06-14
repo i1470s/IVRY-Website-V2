@@ -76,8 +76,8 @@ const Profile = () => {
       <p>
         <strong>Account Options:</strong>
       </p> 
-      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick="">Support</button></a><br/><br/>
-      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <a style={{color: "white"}} href="#"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick="">Support</button></a><br/><br/>
+      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/><br/><br/><br/><br/><br/><br/><br/>
       <p>
         <strong>App Options:</strong>
       </p>
