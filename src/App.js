@@ -18,6 +18,7 @@ import BoardAdmin from "./components/BoardAdmin";
 import PageNotFound from "./components/404";
 import Legal from "./components/Legal";
 import Recoverys from "./components/Recoverys";
+import Support from "./components/Support";
 
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
@@ -67,6 +68,7 @@ const App = () => {
       <Route exact path="/profile/mod" component={BoardModerator}/>
       <Route exact path="/profile/admin" component={BoardAdmin}/>
       <Route exact path="/profile/signup" component={Register}/>
+      <Route exact path="/profile/support" component={Support}/>
       
       <Route exact path="/legal" component={Legal}/>
       
