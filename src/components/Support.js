@@ -11,7 +11,6 @@ import learn from "./images/learn.svg";
 import home from "./images/home.svg";
 import store from "./images/store.svg";
 import search from "./images/search.svg";
-import form from "react-validation/build/form";
 import Input from "react-validation/build/input";
 
 
