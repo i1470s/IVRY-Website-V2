@@ -11,9 +11,6 @@ import learn from "./images/learn.svg";
 import home from "./images/home.svg";
 import store from "./images/store.svg";
 import search from "./images/search.svg";
-import { form } from "react-validation/build/form";
-import Input from "react-validation/build/input";
-
 
 const Support = () => {
   const required = (value) => {
@@ -66,7 +63,8 @@ const Support = () => {
               <br/>
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Support</h1>
               <h3>Welcome {currentUser.username}</h3>
-              <br/>
+              <small style={{color: "white"}}>Welcome to our support page, please leave your issue by creating a ticket below!</small>
+
               <div className="col-md-12">
               <div className="card card-container">
                 <img
@@ -77,9 +75,9 @@ const Support = () => {
                   
               <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true">
 
-                    <div><label>Your Username</label> <Input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Username" type="text" name="name" /> </div>
+                    <div><label>Your Username</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Username" type="text" name="name" /> </div>
 
-                    <div><label>Your Email</label> <Input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Email" type="email" name="email" /></div>
+                    <div><label>Your Email</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Email" type="email" name="email" /></div>
 
                     <div><label>Your Problem</label></div>
 
