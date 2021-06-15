@@ -56,6 +56,12 @@ const Support = () => {
               <br/>
               <div className="col-md-12">
               <div className="card card-container">
+                <img
+                  src="https://ivry.tk/favicon.ico"
+                  alt="profile-img"
+                  className="profile-img-card"
+                  />
+                  
               <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true" ref={form}>
 
                     <label style={{marginLeft: "-100px"}}>Your Username</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} type="text" name="name" /> 
