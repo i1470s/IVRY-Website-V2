@@ -11,9 +11,22 @@ import learn from "./images/learn.svg";
 import home from "./images/home.svg";
 import store from "./images/store.svg";
 import search from "./images/search.svg";
-import { form } from "react-validation/build/form";
+import Form from "react-validation/build/form";
+import Input from "react-validation/build/input";
+
 
 const Support = () => {
+  const required = (value) => {
+    if (!value) {
+      return (
+        <div style={{color: "white"}} role="alert">
+          This field is required!
+        </div>
+      );
+    }
+  };
+  
+
   const { user: currentUser } = useSelector((state) => state.auth);
   const [content, setContent] = useState("");
   
@@ -62,25 +75,25 @@ const Support = () => {
                   className="profile-img-card"
                   />
                   
-              <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true" ref={form}>
+              <Form style={{width: "300px"}} name="contact" method="POST" data-netlify="true">
 
-                    <label style={{marginLeft: "-100px"}}>Your Username</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} type="text" name="name" /> 
+                    <div><label>Your Username</label> <Input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Username" type="text" name="name" /> </div>
 
-                    <label style={{marginLeft: "-160px"}}>Your Email</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} type="email" name="email" />
+                    <div><label>Your Email</label> <Input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Email" type="email" name="email" /></div>
 
-                    <label style={{marginLeft: "-125px"}}>Your Problem</label>
+                    <div><label>Your Problem</label></div>
 
-                    <select style={{marginLeft: "-210px"}} name="role[]" multiple>
-                    <option value="username">Username</option>
-                    <option value="email">Email</option>
+                    <div><select style={{marginLeft: "-210px"}} name="role[]" multiple>
+                    <option value="account">Account</option>
                     <option value="purchase">Purchase</option>
+                    <option value="bug">Bug Report</option>
                     <option value="other">Other</option>
-                    </select>
+                    </select></div>
 
-                    <label style={{marginLeft: "-65px"}}>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}  name="message"></textarea>
+                    <div><label>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px", height: "40px", maxWidth: "280px", minWidth: "280px", minHeight: "40px", maxHeight: "75px"}}  validations={[required]} placeholder="Some detailed info about your problem" name="message"></textarea></div>
                     <br/>
-                    <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button>
-              </form>
+                    <div><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button></div>
+              </Form>
             </div>
             </div>
         </body>
