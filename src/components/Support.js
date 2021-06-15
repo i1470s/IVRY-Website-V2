@@ -11,7 +11,7 @@ import learn from "./images/learn.svg";
 import home from "./images/home.svg";
 import store from "./images/store.svg";
 import search from "./images/search.svg";
-import Form from "react-validation/build/form";
+import { form } from "react-validation/build/form";
 import Input from "react-validation/build/input";
 
 
@@ -75,7 +75,7 @@ const Support = () => {
                   className="profile-img-card"
                   />
                   
-              <Form style={{width: "300px"}} name="contact" method="POST" data-netlify="true">
+              <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true">
 
                     <div><label>Your Username</label> <Input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Username" type="text" name="name" /> </div>
 
@@ -93,7 +93,7 @@ const Support = () => {
                     <div><label>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px", height: "40px", maxWidth: "280px", minWidth: "280px", minHeight: "40px", maxHeight: "75px"}}  validations={[required]} placeholder="Some detailed info about your problem" name="message"></textarea></div>
                     <br/>
                     <div><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button></div>
-              </Form>
+              </form>
             </div>
             </div>
         </body>
