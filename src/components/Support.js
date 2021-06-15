@@ -91,7 +91,7 @@ const Support = () => {
                     <div><label>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px", height: "40px", maxWidth: "280px", minWidth: "280px", minHeight: "40px", maxHeight: "75px"}}  validations={[required]} placeholder="Some detailed info about your problem" name="message"></textarea></div>
                     <br/>
                     <div><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button></div> <br/>
-          <small style={{color: "white"}}>Think you need more help?</small> <a href="https://linktr.ee/brayden_viana">Contact Us</a>
+          <small style={{color: "white"}}>Think you need more help?</small> <a href="https://linktr.ee/brayden_viana">Contact us</a>
               </form>
             </div>
             </div>
