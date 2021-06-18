@@ -70,7 +70,7 @@ const Login = (props) => {
     <div>
       <body className="App-body">
       <br/>
-      <h1 style={{color: "#fb5804", }}>IVRY</h1>
+      <h1 style={{color: "#fb5804"}}>IVRY</h1>
       <small style={{color: "white"}}>Log into your account below, or create a new one!</small>
 
       <div className="col-md-12">
