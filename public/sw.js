@@ -23,7 +23,19 @@ this.addEventListener('install', function(event) {
               //  These are the files we want to cache so // we can access offline! For your project 
               // you'll need to add your own. You can 
               // include any file you wish here.
-              '/static/media/home.b421c8ff.svg'
+              '/static/media/home.b421c8ff.svg',
+              '/static/media/home-highlighted.76c329c7.svg',
+              '/static/media/learn.dc189a0a.svg',
+              '/static/media/learn-highlighted.c3851cff.svg',
+              '/static/media/store.da682a9f.svg',
+              '/static/media/store-highlighted.e80aad22.svg',
+              '/static/media/search.b0434d0f.svg',
+              '/static/media/search-highlighted.42c6a5e7.svg',
+              '/static/media/user.16e7e939.svg',
+              '/static/media/user-highlighted.bbb3061c.svg',
+              '/static/media/dm.2fb416eb.svg',
+              '/static/media/dm-highlighted.af621d22.svg',
+              '/favicon.ico'
           ]);
       })
   );
