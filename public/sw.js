@@ -1,6 +1,6 @@
 // Chrome's currently missing some useful cache methods,
 // this polyfill adds them.
-importScripts('sw-extra.js');
+// importScripts('sw-extra.js');
 
 // Here comes the install event!
 // This only happens once, when the browser sees this
