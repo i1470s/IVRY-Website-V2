@@ -65,7 +65,7 @@ const Home = () => {
               <br/>
               <br/>
 
-              <h3>Popular Pages</h3>
+              <h4 style={{color: "#fb5804"}}>Popular Pages</h4>
 
               <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
               <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
