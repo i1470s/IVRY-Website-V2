@@ -73,7 +73,7 @@ this.addEventListener('fetch', function(event) {
   // it's in offline mode, will break and not show the 
   // file. Bummer!
 
-      caches.open('v1').then(function(cache) {
+      caches.open('ivry@v1').then(function(cache) {
           return cache.match(event.request).then(function(response) {
               return response || fetch(event.request).then(function(response) {
                   cache.put(event.request, response.clone());
@@ -106,7 +106,7 @@ this.addEventListener('activate', function activator(event) {
       caches.keys().then(function(keys) {
           return Promise.all(keys
               .filter(function(key) {
-                  return key.indexOf('v1') !== 0;
+                  return key.indexOf('ivry@v1') !== 0;
               })
               .map(function(key) {
                   return caches.delete(key);
