@@ -37,7 +37,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <br/>
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Store <small style={{fontSize: "15px"}}>- All Prices in CAD / Dm i1470s#0396</small></h1>
 
-                      <h3 style={{color: "#fff"}}>Welcome {currentUser.username}</h3>
+                      <h2>Welcome {currentUser.username}</h2>
                       
                       <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys#GTA"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div>
                       <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys#RDR"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Options</button></a></div> 

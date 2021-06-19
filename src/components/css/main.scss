@@ -167,11 +167,12 @@ html {
   
   ::-webkit-scrollbar {
     width: 0px;
-    height: 13px; 
+    height: 0px; 
+    background: transparent;  /* Optional: just make scrollbar invisible */
   }
   
   ::-webkit-scrollbar:hover {
-    height: 18px; 
+    height: 0px; 
     width: 0px;
   }
   

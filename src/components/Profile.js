@@ -53,9 +53,9 @@ const Profile = () => {
       <br/>
       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Profile</h1>
       <div style={{color: "white"}}>
-        <h3>
+        <h2>
           <strong>{currentUser.username}</strong> Profile
-        </h3>
+        </h2>
       <p>
         <strong>Username:</strong> {currentUser.username}
       </p>
@@ -78,7 +78,7 @@ const Profile = () => {
         <strong>Account Options:</strong>
       </p> 
       <a style={{color: "white"}} href="/profile/support"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}}>Support</button></a><br/><br/>
-      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/><br/><br/><br/><br/><br/><br/><br/>
+      <a style={{color: "white"}} href="/"><button style={{border: "2px #fff solid", background: "#000", borderRadius: "5px"}} onClick={logOut}>Log Out</button></a><br/><br/><br/><br/><br/><br/><br/>
       <p>
         <strong>App Options:</strong>
       </p>

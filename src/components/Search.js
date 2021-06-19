@@ -37,7 +37,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <br/>
                       <br/>
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Search</h1>
-                      <h3>Welcome {currentUser.username}</h3>
+                      <h2>Welcome {currentUser.username}</h2>
                       <br/>
 
                       <form id="form" role="search" method="get" action="http://www.google.com/search" target="_blank">

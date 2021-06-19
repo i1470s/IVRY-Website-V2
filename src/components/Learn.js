@@ -37,7 +37,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <br/>
                       <br/>
                       <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Tutorials</h1>
-                      <h3>Welcome {currentUser.username}</h3>
+                      <h2>Welcome {currentUser.username}</h2>
 
                       <div class="list-shop4"><h4>Coding</h4> <p>Coming Soon!</p> <p>Tutorials: 7</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
                       <div class="list-learn"><h4>HomeBrew</h4> <p>Coming Soon!</p> <p>Tutorials: 3</p> <a href="#"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>

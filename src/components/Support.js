@@ -62,7 +62,7 @@ const Support = () => {
               <br/>
               <br/>
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Support</h1>
-              <h3>Welcome {currentUser.username}</h3>
+              <h2>Welcome {currentUser.username}</h2>
               <small style={{color: "white"}}>Welcome to our support page, please leave your issue by creating a ticket below!</small>
 
               <div className="col-md-12">

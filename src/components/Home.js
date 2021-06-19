@@ -51,7 +51,7 @@ const Home = () => {
               <br/>
               <br/>
               <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Home</h1>
-              <h3>Welcome {currentUser.username}</h3>
+              <h2>Welcome {currentUser.username}</h2>
               <br/>
               <small>Were IVRY, a small group of coders offering many different services and programs, varying from simple DLL injection, to GTAV modded accounts, 
                 <br/>if your looking for it theres a good chance we have it!, so make sure to check out our shop, <br/>check out our tutorials page to learn how to code and how to homebrew!</small>
@@ -65,7 +65,7 @@ const Home = () => {
               <br/>
               <br/>
 
-              <h4 style={{color: "#fb5804"}}>Popular Pages</h4>
+              <h3 style={{color: "#fb5804"}}>Popular Pages</h3>
 
               <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
               <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
