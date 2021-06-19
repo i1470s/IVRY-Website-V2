@@ -7,7 +7,7 @@ import store from './images/store.svg';
 import search from './images/search.svg';
 import learn from './images/learn.svg';
 import user from './images/user.svg';
-import dm from './images/dm.svg'
+import dm from './images/dm-highlighted.svg'
 
 /*CSS Imports*/
 import './css/styles.scss';
@@ -24,7 +24,7 @@ const Chats = () => {
         
         <div id="Nav-bar" className="nav">
           <header className="App-header">
-                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <a style={{float: "right", margin: "10px", opacity: ".5"}} href="/profile/chats"><img width="30px" height="30px" alt="dm" src={dm}/></a> <a style={{float: "right", margin: "10px"}} href="/profile"><img width="30px" height="30px" alt="user" src={user}/></a>  
+                <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a> <a style={{float: "right", margin: "10px"}} href="/profile/chats"><img width="30px" height="30px" alt="dm" src={dm}/></a> <a style={{float: "right", margin: "10px"}} href="/profile"><img width="30px" height="30px" alt="user" src={user}/></a>  
           </header>
         </div>
         

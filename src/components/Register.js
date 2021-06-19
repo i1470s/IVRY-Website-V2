@@ -122,7 +122,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="username">Username</label>
                   <Input
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
+                    style={{color: "white", background: "#000", border: "2px #666666 solid", borderRadius: "5px", width: "280px"}}
                     type="text"
                     name="username"
                     value={username}
@@ -135,7 +135,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="email">Email</label>
                   <Input
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
+                    style={{color: "white", background: "#000", border: "2px #666666 solid", borderRadius: "5px", width: "280px"}}
                     type="text"
                     name="email"
                     value={email}
@@ -148,7 +148,7 @@ const Register = () => {
                 <div>
                   <label style={{color: "white"}} htmlFor="password">Password</label>
                   <Input 
-                    style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
+                    style={{color: "white", background: "#000", border: "2px #666666 solid", borderRadius: "5px", width: "280px"}}
                     type="password"
                     name="password"
                     value={password}
@@ -161,8 +161,8 @@ const Register = () => {
                 <div>
                   <br/>
                   <small style={{color: "white"}}>*Must Be 13 years or older to create an account*</small><br/><br/>
-                  <small style={{color: "white"}}>By creating an account with us, you are agreeing to our <a href="/legal#Termsofservice">Terms of service</a> <a href="/legal#Privacypolicy">Privacy Policy</a></small><br/><br/>
-                  <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} Id="signin">Sign Up</button>
+                  <small style={{color: "white"}}>By creating an account with us, you are agreeing to our <a href="/legal#Termsofservice">Terms of service</a> · <a href="/legal#Privacypolicy">Privacy Policy</a></small><br/><br/>
+                  <button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "120px", minWidth: "100px", fontSize: "20px"}} Id="signin">Sign Up</button>
                 </div>
               </div>
             )}

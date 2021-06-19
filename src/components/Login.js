@@ -85,7 +85,7 @@ const Login = (props) => {
           <div>
             <label style={{color: "white"}} htmlFor="username">Username</label>
             <Input
-              style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
+              style={{color: "white", background: "#000", border: "2px #666666 solid", borderRadius: "5px", width: "280px"}}
               type="text"
               name="username"
               value={username}
@@ -98,7 +98,7 @@ const Login = (props) => {
           <div>
             <label style={{color: "white"}} htmlFor="password">Password</label>
             <Input
-              style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}}
+              style={{color: "white", background: "#000", border: "2px #666666 solid", borderRadius: "5px", width: "280px"}}
               type="password"
               name="password"
               value={password}
@@ -113,8 +113,8 @@ const Login = (props) => {
             {loading && (
                 <small style={{color: "white"}}></small>
               )}
-            <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} disabled={loading}>
-              <span style={{color: "white", background: "#000"}}>Login</span>
+            <button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}} disabled={loading}>
+              <span style={{color: "white", background: "#fb5804", width: "280px", fontSize: "20px"}}>Login</span>
             </button>
           </div>
 

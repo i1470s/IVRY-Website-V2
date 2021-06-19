@@ -8,7 +8,7 @@ import "./css/styles.scss";
 import dm from "./images/dm.svg";
 import user from "./images/user.svg";
 import learn from "./images/learn.svg";
-import home from "./images/home.svg";
+import home from "./images/home-highlighted.svg";
 import store from "./images/store.svg";
 import search from "./images/search.svg";
 
@@ -67,12 +67,12 @@ const Home = () => {
 
               <h3 style={{color: "#fb5804"}}>Popular Pages</h3>
 
-              <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
-              <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
-              <div class="list-shop5"><h4>Shop</h4> <a href="/store"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} >View</button></a></div> 
-              <div class="list-shop5"><h4>Search</h4> <a href="/search"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} >View</button></a></div>  
-              <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys#GTA"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
-              <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys#RDR"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
+              <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div>
+              <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div> 
+              <div class="list-shop5"><h4>Shop</h4> <a href="/store"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}} >View</button></a></div> 
+              <div class="list-shop5"><h4>Search</h4> <a href="/search"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}} >View</button></a></div>  
+              <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys#GTA"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div>
+              <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys#RDR"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div> 
         </body>
       </div>
       
@@ -80,7 +80,7 @@ const Home = () => {
       
       <div id="Footer">
         <footer className="App-footer">
-              <a href="/home"><img style={{opacity: ".5"}} width="30px" height="40px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
+              <a href="/home"><img width="30px" height="30px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/learn"><img width="30px" height="40px" alt="learn" src={learn}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀⠀⠀⠀⠀
               <a href="/search"><img width="30px" height="40px" alt="search" src={search}/></a>

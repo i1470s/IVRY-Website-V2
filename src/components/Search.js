@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 /*Image Imports*/
 import home from './images/home.svg';
 import store from './images/store.svg';
-import search from './images/search.svg';
+import search from './images/search-highlighted.svg';
 import learn from './images/learn.svg';
 
 /*CSS Imports*/
@@ -56,7 +56,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <a href="/home"><img width="30px" height="40px" alt="home" src={home}/></a>⠀⠀⠀⠀⠀⠀
                       <a href="/learn"><img width="30px" height="40px" alt="search" src={learn}/></a>⠀⠀⠀⠀⠀⠀
                       <a href="/store"><img width="30px" height="40px" alt="store" src={store}/></a>⠀⠀⠀⠀⠀⠀
-                      <a href="/search"><img style={{opacity: ".5"}} width="30px" height="40px" alt="search" src={search}/></a>
+                      <a href="/search"><img width="30px" height="30px" alt="search" src={search}/></a>
                 </footer>
             </div>
         </div>
