@@ -75,23 +75,8 @@ const Support = () => {
                   
               <form style={{width: "300px"}} name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
-                    <div><label>Your Username</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Username" type="text" name="name" /> </div>
-
-                    <div><label>Your Email</label> <input style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px"}} validations={[required]} placeholder="Email" type="email" name="email" /></div>
-
-                    <div><label>Your Problem</label></div>
-
-                    <div><select style={{marginLeft: "-210px"}} name="role[]" multiple>
-                    <option value="account">Account</option>
-                    <option value="purchase">Purchase</option>
-                    <option value="bug">Bug Report</option>
-                    <option value="other">Other</option>
-                    </select></div>
-
-                    <div><label>Please provide info</label><textarea style={{color: "black", background: "#fff", border: "1px #000 solid", borderRadius: "5px", width: "280px", height: "40px", maxWidth: "280px", minWidth: "280px", minHeight: "40px", maxHeight: "75px"}}  validations={[required]} placeholder="Some detailed info about your problem" name="message"></textarea></div>
-                    <br/>
-                    <div><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} type="submit">Submit</button></div> <br/>
-                    <small style={{color: "white"}}>Think you need more help?</small> <a href="https://linktr.ee/brayden_viana">Contact us</a>
+                    <div><label>Support Coming Soon</label> </div><br/>
+                    <small style={{color: "white"}}>For now message us on one of the following</small> <a href="https://linktr.ee/brayden_viana">Contact us</a>
               </form>
             </div>
             </div>
