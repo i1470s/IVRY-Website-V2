@@ -59,6 +59,20 @@ const Home = () => {
               <small>We were founded in early 2018 and since then weve been learning and coding many different languages and programs, currently this very site is our biggest project, 
               <br/>this is the IVRY websites third ideration since 2018 and we expect to keep changing and updating it for years to come, currently were working on our api and creating a back end, while still offering all our services, 
               so do expect to see many changes, reworkings and redos for the next bit.</small>
+              <br/>
+              <small>If you found a bug, have a purchase problem, and or account issues please go to your profile and use the support tab so we can help you as best we can as fast as we can,
+              <br/>as we want you to have the best possible experence on our platform at all times!</small>
+              <br/>
+              <br/>
+
+              <h3>Popular Pages</h3>
+
+              <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
+              <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
+              <div class="list-shop5"><h4>Shop</h4> <a href="/store"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} >View</button></a></div> 
+              <div class="list-shop5"><h4>Search</h4> <a href="/search"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} >View</button></a></div>  
+              <div class="list-shop"><h4>GTAV Recoverys</h4> <p>Stock: Varies</p><p>Price: $5 - $30</p> <a href="/store/recoverys#GTA"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div>
+              <div class="list-shop2"><h4>RDR2 Recoverys</h4> <p>Stock: Varies</p><p>Price: $10 - $50</p> <a href="/store/recoverys#RDR"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>View</button></a></div> 
         </body>
       </div>
       

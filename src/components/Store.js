@@ -35,7 +35,7 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <br/>
                       <br/>
                       <br/>
-                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Store</h1>
+                      <h1 style={{color: "#fb5804", position: "fixed", left: "20px", top: "35px"}}>Store <small style={{fontSize: "15px"}}>- All Prices in CAD / Dm i1470s#0396</small></h1>
 
                       <h3 style={{color: "#fff"}}>Welcome {currentUser.username}</h3>
                       
@@ -45,12 +45,6 @@ const { user: currentUser } = useSelector((state) => state.auth);
                       <div class="list-shop4"><h4>Custom Discord Bot</h4> <p>Price: $25</p> <button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}} data-sellix-product="6083c9146e422" type="submit">Purchase</button></div>  
                       <div class="list-shop4"><h4>Hire Us</h4> <p>Price: Varies</p> <a href="https://linktr.ee/brayden_viana"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Contact</button></a></div>
                       <div class="list-shop5"><h4>Donations</h4> <p>Price: Varies</p> <a href="https://www.paypal.com/donate?hosted_button_id=QWT56W6DFV8H4"><button style={{color: "white", background: "#000", border: "2px #fff solid", borderRadius: "5px"}}>Donate</button></a></div>
-
-                      <h3 style={{color: "#fb5804"}}>Store Policy</h3>
-                      <small>Welcome to our store, all our pices are in CAD(Canadian), we use sellix.io for secure and fast payment gateway for everyone of our products to help stop fraud, 
-                      <br/>with over 30+ purchases in the past 3 months we think weve gained the trust of many 
-                      <br/>and are able to show our selfs as fast, safe and lastly reliable,<br/>
-                      please contact me on discord before any purchase i1470s#0396</small>
                 </body>
             </div>
             
