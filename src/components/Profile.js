@@ -82,7 +82,7 @@ const Profile = () => {
       <p>
         <strong>App Options:</strong>
       </p>
-      <a style={{color: "white"}} href="/legal"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "195px", minWidth: "100px", fontSize: "20px"}}>App Information</button></a>
+      <a style={{color: "white"}} href="/legal"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "195px", minWidth: "100px", fontSize: "20px"}}>App Information</button></a><br/><br/>
       <a style={{color: "white"}} href="/api-ivry.tk"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>API</button></a>
       <br/>
       <br/>
