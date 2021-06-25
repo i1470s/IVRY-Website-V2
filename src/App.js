@@ -11,7 +11,7 @@ import Learn from "./components/Learn";
 import Store from "./components/Store";
 import Chats from "./components/Chats";
 import Search from "./components/Search";
-import Ash from "./components/BoardAdmin";
+import Ash from "./components/Ash";
 import Profile from "./components/Profile";
 import BoardModerator from "./components/BoardModerator";
 import BoardAdmin from "./components/BoardAdmin";
