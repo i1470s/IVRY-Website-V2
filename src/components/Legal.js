@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
 
@@ -11,8 +10,7 @@ import store from "./images/store.svg";
 import search from "./images/search.svg";
 
 const Home = () => {
-  const [content, setContent] = useState("");
-  const { user: currentUser } = useSelector((state) => state.auth);
+  const [setContent] = useState("");
 
   useEffect(() => {
     UserService.getPublicContent().then(

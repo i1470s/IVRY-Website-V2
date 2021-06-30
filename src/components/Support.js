@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import UserService from "../services/user.service";
 
@@ -25,7 +25,7 @@ const Support = () => {
   
 
   const { user: currentUser } = useSelector((state) => state.auth);
-  const [content, setContent] = useState("");
+  const [setContent] = useState("");
   
   useEffect(() => {
     UserService.getPublicContent().then(

@@ -1,6 +1,5 @@
 /*Imports*/
-import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
 
 /*Image Imports*/
 import home from './images/home.svg';
@@ -15,7 +14,6 @@ import './css/styles.scss';
 
 
 const Recoverys= () => {
-const { user: currentUser } = useSelector((state) => state.auth);
     return (
        <div id="Page" className="App">
             
