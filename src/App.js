@@ -58,6 +58,7 @@ const App = () => {
       <Route exact path="/search" component={Search}/>
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
+      <Route exact path="/api" component={() => { window.location.href = 'http://api-ivry.tk/'; return null;}}/>
       
       <Route exact path="/store" component={Store}/>
       <Route exact path="/store/recoverys" component={Recoverys}/>
@@ -69,7 +70,6 @@ const App = () => {
       <Route exact path="/profile/admin" component={BoardAdmin}/>
       <Route exact path="/profile/signup" component={Register}/>
       <Route exact path="/profile/support" component={Support}/>
-      <Route exact path="/api" component={() => { window.location.href = 'http://api-ivry.tk/'; return null;}}/>
       
       <Route exact path="/legal" component={Legal}/>
       
