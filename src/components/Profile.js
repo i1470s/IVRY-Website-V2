@@ -14,9 +14,6 @@ import { clearMessage } from "../actions/message";
 import { history } from "../helpers/history";
 
 const Profile = () => {
-  const [showModeratorBoard, setShowModeratorBoard] = useState(false);
-  const [showAdminBoard, setShowAdminBoard] = useState(false);
-
   const { user: currentUser } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
@@ -25,13 +22,6 @@ const Profile = () => {
       dispatch(clearMessage()); 
     });
   }, [dispatch]);
-
-  useEffect(() => {
-    if (currentUser) {
-      setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
-      setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
-    }
-  }, [currentUser]);
 
   const logOut = () => {
     dispatch(logout());
@@ -69,11 +59,6 @@ const Profile = () => {
         <strong>Token:</strong> {currentUser.accessToken.substring(0, 20)} ...{" "}
         {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
       </p>
-      <strong>Authorities:</strong>
-      <ul>
-        {currentUser.roles &&
-          currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
-      </ul>
       <p>
         <strong>Account Options:</strong>
       </p> 
