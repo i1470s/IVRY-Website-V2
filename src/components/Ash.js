@@ -14,7 +14,7 @@ const Ash = () => {
             
             
             
-            <div id="Nav-bar" className="nav" style={{height: "0px"}}>
+            <div id="Nav-bar" className="nav" style={{height: "0px", visability: "hidden"}}>
                 <header className="App-header">
                     <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a>
                     <h1 style={{color: "white"}}>YOUR NOT ALLOWED TO SEE YET DORK</h1>
