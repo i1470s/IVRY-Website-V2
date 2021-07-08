@@ -14,7 +14,7 @@ const Ash = () => {
             
             
             
-            <div id="Nav-bar" className="nav" style={{height: "1000px", visibility: "visible"}}>
+            <div id="Nav-bar" className="nav">
                 <header className="App-header">
                     <a href="https://ivry.tk/"><b style={{float: "left", fontSize: "30px", color: "#fb5804"}}>⠀IVRY</b></a>
                     <h1 style={{color: "white"}}>YOUR NOT ALLOWED TO SEE YET DORK</h1>
@@ -27,7 +27,7 @@ const Ash = () => {
             
             
             <div id="Content">         
-                <body className="App-body" style={{width: "0px", height: "0px"}}>
+                <body className="App-body">
                       <h1>Welcome Ashlee</h1>
                       <b><p>Our Memory Book</p></b>
                       <small>10/10/2020 - ∞</small>
