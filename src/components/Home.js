@@ -71,6 +71,7 @@ const Home = () => {
 
               <h3 style={{color: "#fb5804"}}>Popular Pages</h3>
 
+              <div class="list-shop5"><h4>Forum</h4> <a href="/forum"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div>
               <div class="list-shop5"><h4>Home</h4> <a href="/home"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div>
               <div class="list-shop5"><h4>Tutorials</h4> <a href="/learn"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}}>View</button></a></div> 
               <div class="list-shop5"><h4>Shop</h4> <a href="/store"><button style={{color: "white", background: "#fb5804", border: "2px #fb5804 solid", borderRadius: "25px", width: "100px", minWidth: "100px", fontSize: "20px"}} >View</button></a></div> 

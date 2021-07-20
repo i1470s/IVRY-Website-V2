@@ -47,6 +47,7 @@ const App = () => {
       <Route exact path="/ash" component={Ash}/>
       <Route exact path="/404" component={PageNotFound}/>
       <Route exact path="/api" component={() => { window.location.href = 'http://api-ivry.tk/'; return null;}}/>
+      <Route exact path="/forum" component={() => { window.location.href = 'http://ivry.us.to/forum'; return null;}}/>
       
       <Route exact path="/store" component={Store}/>
       <Route exact path="/store/recoverys" component={Recoverys}/>
